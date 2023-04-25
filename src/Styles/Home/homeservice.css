@@ -1,0 +1,73 @@
+:root {
+  --seven: #333333;
+  --secondary: #333333;
+  --thrid: #00c5df;
+  --fourth: #000000;
+  --five: ##9c9c9c;
+  --six: #ffff;
+}
+.Hservice__content {
+  display: grid;
+  grid-template-columns: 15% 40%;
+  gap: 2%;
+  grid-auto-rows: minmax(100px auto);
+  margin-top: 2rem;
+}
+.Hservice__content p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Grayscale/Black */
+
+  color: var(--fourth);
+}
+.HS__Accordion {
+  display: grid;
+  grid-template-columns: 65% 40%;
+  gap: 0%;
+  grid-auto-rows: minmax(400px auto);
+  position: relative;
+  z-index: 3;
+}
+.HS__Accordion h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+
+  color: var(--seven);
+}
+.HS__Accordion h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: var(--five);
+}
+.Service__Image img {
+  position: relative;
+  z-index: 2;
+  margin-top: -10rem;
+}
+.background__div {
+  margin-top: -10rem;
+}
+@media (max-width: 700px) {
+  .Hservice__content {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+  .HS__Accordion h1 {
+    font-size: 27px;
+  }
+  .HS__Accordion {
+    grid-template-columns: 1fr;
+  }
+  .Service__Image img {
+    margin-top: 0rem;
+  }
+}

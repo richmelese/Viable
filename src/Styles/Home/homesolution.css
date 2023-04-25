@@ -1,0 +1,108 @@
+:root {
+  --seven: #333333;
+  --secondary: #333333;
+  --thrid: #00c5df;
+  --fourth: #000000;
+  --five: ##9c9c9c;
+  --six: #ffff;
+}
+.SH__content {
+  display: grid;
+  grid-template-columns: 5% 40%;
+  gap: 2%;
+  grid-auto-rows: minmax(100px auto);
+  margin-top: 9rem;
+}
+.Sh__main__content {
+  display: grid;
+  grid-template-columns: 35% 30% 20%;
+  gap: 5%;
+  grid-auto-rows: minmax(400px auto);
+  margin-top: 2rem;
+}
+.Sh__main__content p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+
+  color: var(--seven);
+}
+.Sh__main__content h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: #9c9c9c;
+}
+/* =====See material Button=== */
+.Sh__main__content button {
+  position: absolute;
+  width: 158px;
+  height: 49px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* border-color: transparent; */
+}
+
+.Sh__main__content button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Sh__main__content button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Sh__main__content button :hover span {
+  padding-right: 25px;
+}
+
+.Sh__main__content button :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.Sh__main__content button p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--seven);
+}
+.soultion__row {
+  display: grid;
+  grid-template-rows: 15% 15%;
+  row-gap: 41%;
+  margin-top: 1rem;
+
+  grid-auto-columns: minmax(300px auto);
+}
+@media (max-width: 700px) {
+  .SH__content {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+  .Sh__main__content {
+    grid-template-columns: 1fr;
+    gap: 0%;
+    grid-auto-rows: minmax(400px auto);
+  }
+  .soultion__rowS {
+    grid-template-rows: 1fr;
+    gap: 10%;
+  }
+  .solution__one {
+    margin-top: 4rem;
+  }
+  .Sh__main__content p {
+    font-size: 24px;
+  }
+}

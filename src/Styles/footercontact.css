@@ -1,0 +1,90 @@
+:root {
+  --seven: #333333;
+  --secondary: #333333;
+  --thrid: #00c5df;
+  --fourth: #000000;
+  --five: ##9c9c9c;
+  --six: #ffff;
+}
+.Cfooter__content {
+  width: 84.3rem;
+  margin-left: -4rem;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+  grid-auto-rows: minmax(200px auto);
+  background-color: var(--thrid);
+  margin-top: 5rem;
+}
+.Cfooter__content p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  padding-left: 2rem;
+  color: var(--six);
+}
+.Cfooter__content h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  color: var(--six);
+  padding-left: 1rem;
+}
+/* Anmiated Button */
+.cfooter__second button {
+  width: 142px;
+  height: 49px;
+  text-align: center;
+
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.cfooter__second button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cfooter__second button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.cfooter__second button :hover span {
+  padding-right: 25px;
+}
+
+.cfooter__second button :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.cfooter__second button p {
+  padding-left: 0rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--secondary);
+}
+@media (max-width: 700px) {
+  .Cfooter__content {
+    grid-template-columns: 1fr;
+    gap: 0%;
+    width: 28.9rem;
+  }
+  .Cfooter__content p {
+    font-size: 24px;
+  }
+}

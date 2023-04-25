@@ -1,0 +1,96 @@
+:root {
+  --seven: #333333;
+  --secondary: #333333;
+  --thrid: #00c5df;
+  --fourth: #000000;
+  --five: #9c9c9c;
+  --six: #ffff;
+}
+.business__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
+  grid-template-rows: minmax(400px auto);
+}
+.first__coloumn {
+  background-color: var(--thrid);
+  padding: 4rem;
+}
+.first__coloumn h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #ffffff;
+}
+.first__coloumn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--six);
+}
+.first__coloumn h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--six);
+}
+.first__coloumn p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* #00C5DF */
+
+  color: #00c5df;
+}
+
+/* Anmiated Button */
+.first__coloumn button {
+  width: 142px;
+  height: 49px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.first__coloumn button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.first__coloumn button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.first__coloumn button :hover span {
+  padding-right: 25px;
+}
+
+.first__coloumn button :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+@media (max-width: 700px) {
+  .business__container {
+    grid-template-columns: 1fr;
+    gap: 0%;
+    margin-left: -3rem;
+  }
+}

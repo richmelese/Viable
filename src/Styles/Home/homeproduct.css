@@ -1,0 +1,52 @@
+:root {
+  --seven: #333333;
+  --secondary: #333333;
+  --thrid: #00c5df;
+  --fourth: #000000;
+  --five: ##9c9c9c;
+  --six: #ffff;
+}
+.HP__content {
+  display: grid;
+  grid-template-columns: 5% 40%;
+  gap: 2%;
+  grid-auto-rows: minmax(100px auto);
+  margin-top: 2rem;
+}
+.Hp__content__text {
+  display: grid;
+  grid-template-columns: 25% 35%;
+  gap: 40%;
+  grid-auto-rows: minmax(200px auto);
+}
+.Hp__content__text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: var(--seven);
+}
+.Hp__content__text h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--five);
+}
+.Hp__Accordion {
+  display: grid;
+  grid-auto-rows: minmax(200px auto);
+  margin-top: 3rem;
+}
+@media (max-width: 700px) {
+  .HP__content {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+  .Hp__content__text {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+}

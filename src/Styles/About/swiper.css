@@ -1,0 +1,88 @@
+.container.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 8rem;
+}
+.container {
+  margin-top: 4rem;
+}
+.container h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+
+  color: #1c1f35;
+}
+.container.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+div#swpier__color {
+  background-color: #00c5df;
+}
+.swiper__header {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #091242;
+}
+/* =================== */
+.swiper__container {
+  display: grid;
+  grid-template-columns: 12% 66% 4%;
+  gap: 6%;
+  background: #f4f4f4;
+  padding: 2rem;
+}
+.swiper__test {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.All__swiper__container {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 5%;
+}
+.swiper__text {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 151.52%;
+  /* or 24px */
+
+  color: #666c89;
+}
+
+@media screen and (max-width: 1024px) {
+  .mySwiper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+  .All__swiper__container {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+}

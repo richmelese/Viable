@@ -1,0 +1,31 @@
+.menu__content {
+  display: grid;
+  grid-template-columns: 10% 60%;
+  gap: 30%;
+  margin-top: -3rem;
+}
+nav ul li {
+  list-style: none;
+  float: left;
+  padding: 1rem;
+}
+li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Grayscale/50 */
+
+  color: #333333;
+}
+.nav button {
+  position: absolute;
+  width: 142px;
+  height: 49px;
+  border-color: transparent;
+  background: #00c5df;
+}
