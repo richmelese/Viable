@@ -35,7 +35,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 120%;
   /* identical to box height, or 58px */
 
@@ -88,5 +88,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    width: 26rem;
+    height: 16rem;
   }
 }

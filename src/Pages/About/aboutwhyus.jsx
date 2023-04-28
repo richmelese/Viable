@@ -14,10 +14,6 @@ const aboutwhyus = () => {
             className="whyus__image"
             style={{
               backgroundImage: `url(${Background})`,
-              width: "109.5%",
-
-              height: "31rem",
-              backgroundRepeat: "no-repeat",
             }}
           ></div>
         </div>
@@ -25,23 +21,21 @@ const aboutwhyus = () => {
         {/* ---------White background-------- */}
         <div className="White__header">
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Fermentum.</p>
+            <p>Viable: Quality Products and Services Guaranteed for You</p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur. Dolor sem ipsum fringilla
-              id dictumst nibh facilisi mollis fames. Feugiat mi aenean
-              convallis ut natoque. Eget metus in eu id sit malesuada metus odio
-              suspendisse. Turpis lorem facilisi metus aliquet libero bibendum
-              volutpat. Lectus eu tempus eget in eget malesuada ullamcorper nunc
-              nec. Diam diam.
+              Apart from commodity trading, Viable general Trading in Dubai also
+              offers bespoke other key services including procurement and
+              supply, import & exportation Ecommerce, and logistic & shipping
+              solutions to customers around the world.
             </h6>
             <div className="whole__rows">
               <div className="second-row">
                 <div className="icon-grid">
                   {" "}
                   <img className="icon__images" src={icons} alt="" />
-                  <p>Lorem ipsum</p>
+                  <p>Quality Products </p>
                   <img className="icon__images" src={icons} alt="" />
-                  <p>Lorem ipsum</p>
+                  <p>Services Guaranteed</p>
                 </div>
 
                 <div>
@@ -61,7 +55,7 @@ const aboutwhyus = () => {
           <div className="first__number__container">
             <p>1294</p>
             <img className="pattern__image" src={pattern} alt="" />
-            <h6>Lorem ipsum dolor</h6>
+            <h6>Ecommerce</h6>
           </div>
           <div className="hr__about">
             <hr />
@@ -70,7 +64,7 @@ const aboutwhyus = () => {
             <div className="first__number__container">
               <p>3594</p>
               <img className="pattern__image" src={pattern} alt="" />
-              <h6>Lorem ipsum dolor</h6>
+              <h6>Import and Export</h6>
             </div>
           </div>
         </div>

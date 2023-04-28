@@ -18,7 +18,7 @@ const HomeMain = () => {
           </div>
           <div className="right">
             <p>
-              2022<br></br> ALL RIGHT RESERVED
+              2023<br></br> ALL RIGHT RESERVED
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const BusinessContact = () => {
   return (
     <div>
       <section className="Bcontact-section">
-        <p className="Header__business__contact">Lorem ipsum dolor sit amet</p>
+        <p className="Header__business__contact">Our Products</p>
         <div className="Bcontact__container">
           <div
             className="bc-image"
@@ -17,8 +17,10 @@ const BusinessContact = () => {
               backgroundImage: `url(${Imageone})`,
             }}
           >
-            <p className="image-header">Packaging Solutions</p>
-            <h6 className="image__paragraph">Warehouse Management</h6>
+            <p className="image-header">Product</p>
+            <h6 className="image__paragraph">
+              Construction and Building Material
+            </h6>
           </div>
           <div
             style={{
@@ -27,8 +29,8 @@ const BusinessContact = () => {
               backgroundImage: `url(${ImageThree})`,
             }}
           >
-            <p className="image-header">Packaging Solutions</p>
-            <h6 className="image__paragraph">Warehouse Management</h6>
+            <p className="image-header">Product</p>
+            <h6 className="image__paragraph">Foodstuff Products</h6>
           </div>
           <div
             style={{
@@ -37,8 +39,8 @@ const BusinessContact = () => {
               backgroundImage: `url(${ImageTwo})`,
             }}
           >
-            <p className="image-header">Packaging Solutions</p>
-            <h6 className="image__paragraph">Warehouse Management</h6>
+            <p className="image-header">Products</p>
+            <h6 className="image__paragraph">Hospitality – Hotel Supply</h6>
           </div>
         </div>
         <div className="ContactB__container">
@@ -48,6 +50,7 @@ const BusinessContact = () => {
               {" "}
               <button>
                 <p>
+                  <a href="/contact"></a>
                   <span>Contact Us</span>
                 </p>
               </button>

@@ -20,16 +20,15 @@ const Aboutmain = () => {
         <div className="about__main__content">
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur. In sit semper sit lobortis
-              velit. Sit mauris ornare id ultrices laoreet vestibulum auctor
-              diam.
+              Guaranteeing Strategic Sourcing & Supply Services. We Bring the
+              World Right to You
             </p>
             <h6>
-              Lorem ipsum dolor sit amet consectetur. Risus pretium volutpat
-              praesent massa amet et sem viverra orci. Purus vitae morbi nulla
-              sagittis faucibus. Lorem ipsum dolor sit amet consectetur. Risus
-              pretium volutpat praesent massa amet et sem viverra orci. Purus
-              vitae morbi nulla sagittis faucibus.
+              A well-known general trading company in Dubai, Viable General
+              Trading specializes in supply and procurement and has strong
+              financial capabilities. We work with a broad range of products
+              from numerous industries, such as the metal and constraction
+              markets.
             </h6>
           </div>
           <div>

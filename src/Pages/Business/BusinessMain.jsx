@@ -4,16 +4,18 @@ import BusinessBanner from "../../assets/bus_banner.png";
 const BusinessMain = () => {
   return (
     <div>
-      <section className="container">
+      <section className="">
         <div className="business__container">
           <div className="first__coloumn">
             {" "}
             <p>Watch Our Intro Video</p>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1>
+              We Supply the Best Building Material and Construction Products.
+            </h1>
             <h6>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at
-              quam fringilla, scelerisque nisl in, accumsan diam. Quisque
-              sollicitudin risus eu tortor euismod imperdiet.{" "}
+              we have nurtured solid business relationships with our customers,
+              partners, and suppliers. We strive to deliver urgent and reliable
+              services, as well as consistently exceed goals and expectations.
             </h6>
             <button>
               <p>
@@ -21,7 +23,7 @@ const BusinessMain = () => {
               </p>
             </button>
           </div>
-          <div>
+          <div className="bus__img">
             <img src={BusinessBanner} alt="" />
           </div>
         </div>

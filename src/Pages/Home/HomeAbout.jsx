@@ -32,7 +32,10 @@ const HomeAbout = () => {
           </div>
           <div className="Image__row">
             <div className="first">
-              <img className="avatar" src={Avatar} alt="" />
+              <div>
+                <img className="avatar" src={Avatar} alt="" />
+              </div>
+
               <div className="two__rows">
                 {" "}
                 <p>Leuleseged</p>

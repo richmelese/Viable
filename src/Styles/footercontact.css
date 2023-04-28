@@ -82,7 +82,7 @@
   .Cfooter__content {
     grid-template-columns: 1fr;
     gap: 0%;
-    width: 28.9rem;
+    width: 25.8rem;
   }
   .Cfooter__content p {
     font-size: 24px;

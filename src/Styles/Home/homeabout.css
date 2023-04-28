@@ -138,7 +138,7 @@ hr {
 
   color: var(--six);
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .HAbout__content {
     grid-template-columns: 1fr;
   }
@@ -147,5 +147,11 @@ hr {
   }
   .HAbout__Image__content {
     grid-template-columns: 1fr;
+  }
+  .Image__row .first {
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: -12rem;
+    width: 14rem;
   }
 }

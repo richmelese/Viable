@@ -42,7 +42,7 @@
   display: grid;
   grid-template-columns: 45% 45%;
   gap: 10%;
-  grid-auto-rows: minmax(400px, auto);
+  grid-auto-rows: minmax(257px, auto);
 }
 .NewsMain__content p {
   font-family: "Roboto";

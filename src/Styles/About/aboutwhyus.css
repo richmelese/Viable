@@ -106,6 +106,10 @@
 .pattern__image {
   padding-top: 4rem;
 }
+.whyus__image {
+  width: 109.5%;
+  height: "31rem";
+}
 @media (max-width: 700px) {
   .White__header {
     grid-template-columns: 1fr;
@@ -114,5 +118,23 @@
   .whyus__image {
     width: 145.5%;
     margin-left: -4rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+  }
+  .icon__images {
+    margin-top: 2rem;
+    /* width: 7rem; */
+    margin-left: -1rem;
+  }
+  .first__number__container {
+    grid-template-columns: 40% 15% 50%;
+    gap: 5%;
+  }
+  .about__number__container {
+    grid-template-columns: 1fr;
+  }
+  .hr__about {
+    transform: rotate(180deg);
+    align-self: center;
   }
 }

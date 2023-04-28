@@ -6,15 +6,20 @@
   --five: #9c9c9c;
   --six: #ffff;
 }
+#busin__bk {
+  margin-top: 4rem;
+  width: 85rem;
+  margin-left: -4rem;
+}
 .business__container {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 0%;
-  grid-template-rows: minmax(400px auto);
+  grid-template-rows: minmax(200px auto);
 }
 .first__coloumn {
   background-color: var(--thrid);
-  padding: 4rem;
+  padding: 3rem;
 }
 .first__coloumn h1 {
   font-family: "Inter";
@@ -87,10 +92,17 @@
   opacity: 1;
   right: 0;
 }
+.bus__img {
+  height: 12rem;
+}
 @media (max-width: 700px) {
+  #busin__bk {
+    width: 26rem;
+  }
   .business__container {
     grid-template-columns: 1fr;
     gap: 0%;
     margin-left: -3rem;
+    width: 25.3rem;
   }
 }

@@ -43,13 +43,11 @@ export default function App() {
                   <img className="swiper__test" src={test} alt="" />
                 </div>
                 <div>
-                  <h1 className="swiper__header">Kathleen Smith</h1>
+                  <h1 className="swiper__header">Miss Samrawite</h1>
                   <p className="swiper__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Laboriosam, atque doloribus ipsa reiciendis laudantium
-                    repudiandae deserunt illum recusandae, in, delectus nobis?
-                    Doloremque neque temporibus fugit aperiam illum vel tempora
-                    totam.
+                    I'm a small business owner, and this service has been a
+                    godsend! Viable is amazing, I'd absolutely recommend it to
+                    anyone work with Viable Trading.
                   </p>
                 </div>
                 <div>
@@ -66,13 +64,11 @@ export default function App() {
                   <img className="swiper__test" src={test} alt="" />
                 </div>
                 <div>
-                  <h1 className="swiper__header">Kathleen Smith</h1>
+                  <h1 className="swiper__header">Damana Tech</h1>
                   <p className="swiper__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Laboriosam, atque doloribus ipsa reiciendis laudantium
-                    repudiandae deserunt illum recusandae, in, delectus nobis?
-                    Doloremque neque temporibus fugit aperiam illum vel tempora
-                    totam.
+                    Their vast experience and knowledge of the global futures
+                    markets will save you time and money when it comes to
+                    execution, rolls and research.
                   </p>
                 </div>
                 <div>
@@ -92,13 +88,11 @@ export default function App() {
                 <img className="swiper__test" src={test} alt="" />
               </div>
               <div>
-                <h1 className="swiper__header">Kathleen Smith</h1>
+                <h1 className="swiper__header">Ato Abraham</h1>
                 <p className="swiper__text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam, atque doloribus ipsa reiciendis laudantium
-                  repudiandae deserunt illum recusandae, in, delectus nobis?
-                  Doloremque neque temporibus fugit aperiam illum vel tempora
-                  totam.
+                  Viable is very knowledgeable and readily available. I would
+                  recommend his services to anyone who wants to trade domestic
+                  and/or foreign futures markets
                 </p>
               </div>
               <div>
@@ -108,30 +102,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <div className="container All__swiper__container">
-            <div id="swpier__color" className="swiper__container">
-              <div>
-                <img className="swiper__test" src={test} alt="" />
-              </div>
-              <div>
-                <h1 className="swiper__header">Kathleen Smith</h1>
-                <p className="swiper__text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam, atque doloribus ipsa reiciendis laudantium
-                  repudiandae deserunt illum recusandae, in, delectus nobis?
-                  Doloremque neque temporibus fugit aperiam illum vel tempora
-                  totam.
-                </p>
-              </div>
-              <div>
-                {/* <IoMdQuote /> */}
-                <img src={White} alt="" />{" "}
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           {" "}
           <div className="container All__swiper__container">
@@ -140,13 +111,11 @@ export default function App() {
                 <img className="swiper__test" src={test} alt="" />
               </div>
               <div>
-                <h1 className="swiper__header">Kathleen Smith</h1>
+                <h1 className="swiper__header">Bitapps Tech</h1>
                 <p className="swiper__text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam, atque doloribus ipsa reiciendis laudantium
-                  repudiandae deserunt illum recusandae, in, delectus nobis?
-                  Doloremque neque temporibus fugit aperiam illum vel tempora
-                  totam.
+                  I have been extremely pleased with Viable Trading , in terms
+                  of the number of products available for trading, as well as
+                  the reliability Viable actually delivers!
                 </p>
               </div>
               <div>
@@ -157,28 +126,6 @@ export default function App() {
           </div>
         </SwiperSlide>
       </Swiper>
-
-      {/* -----------Container--------------- */}
-      {/* <div className="container All__swiper__container">
-        <div className="swiper__container">
-          <div>
-            <img className="swiper__test" src={test} alt="" />
-          </div>
-          <div>
-            <h1 className="swiper__header">Kathleen Smith</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Laboriosam, atque doloribus ipsa reiciendis laudantium repudiandae
-              deserunt illum recusandae, in, delectus nobis? Doloremque neque
-              temporibus fugit aperiam illum vel tempora totam.
-            </p>
-          </div>
-          <div>
-            <IoMdQuote />
-          </div>
-        </div>
-        <div></div>
-      </div> */}
     </div>
   );
 }

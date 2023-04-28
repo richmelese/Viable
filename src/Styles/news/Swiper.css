@@ -105,6 +105,9 @@
     grid-template-columns: 1fr;
     gap: 0%;
   }
+  .card {
+    width: 43%;
+  }
 }
 /*  */
 .News__swiper span.swiper-pagination-bullet.swiper-pagination-bullet-active {

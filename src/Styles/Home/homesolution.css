@@ -80,8 +80,8 @@
 .soultion__row {
   display: grid;
   grid-template-rows: 15% 15%;
-  row-gap: 41%;
-  margin-top: 1rem;
+  row-gap: 32%;
+  margin-top: -5rem;
 
   grid-auto-columns: minmax(300px auto);
 }

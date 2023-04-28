@@ -4,12 +4,12 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
 import Business from "./Pages/Business/Business";
 import Menu from "./components/menu";
 import NavMenu from "./components/NavMenu";
 import New from "./Pages/News/New";
 import Solution from "./Pages/Solution/Solution";
+import Contact from "./Pages/Contact/Contact";
 function App() {
   return (
     <div className="App">

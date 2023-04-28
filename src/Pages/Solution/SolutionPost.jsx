@@ -11,7 +11,7 @@ const SolutionPost = () => {
         {/* ========All post========= */}
         <div className="content__post">
           <div>
-            <div class="card">
+            <div class="cards">
               <div class="container">
                 <img src={Picture} alt="" />
                 <h4>How to Reduce Checkout Abandonment for more Conversions</h4>
@@ -24,7 +24,7 @@ const SolutionPost = () => {
           </div>
           <div>
             {" "}
-            <div class="card">
+            <div class="cards">
               <div class="container">
                 <img src={Picture} alt="" />
                 <h4>How to Reduce Checkout Abandonment for more Conversions</h4>
@@ -37,7 +37,7 @@ const SolutionPost = () => {
           </div>
           <div>
             {" "}
-            <div class="card">
+            <div class="cards">
               <div class="container">
                 <img src={Picture} alt="" />
                 <h4>How to Reduce Checkout Abandonment for more Conversions</h4>

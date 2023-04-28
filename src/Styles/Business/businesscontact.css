@@ -132,8 +132,11 @@
   }
   .ContactB__container {
     height: 20rem;
-    width: 28.3rem;
+    width: 26.3rem;
 
     margin-top: 4rem;
+  }
+  .contact-container button {
+    margin-left: 8rem;
   }
 }

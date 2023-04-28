@@ -85,4 +85,8 @@ div#swpier__color {
     grid-template-columns: 1fr;
     gap: 0%;
   }
+  .swiper__container {
+    grid-template-columns: 10% 35% 1%;
+    gap: 0%;
+  }
 }

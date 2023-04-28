@@ -42,7 +42,7 @@ const Footer = () => {
               <a href="/about">About</a>{" "}
             </li>
             <li>
-              <a href="/Busines">Business Activities</a>
+              <a href="/Business">Business Activities</a>
             </li>
             <li>
               <a href="/solution">Solutions</a>
@@ -81,6 +81,15 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
+      {/* Bitapps */}
+
+      <div className="bitapps__container">
+        <p>
+          © 2023 | Designed and developed by{" "}
+          <a href="https://bitappstech.com/">bitappstech</a>{" "}
+        </p>
+        <hr />
       </div>
     </div>
   );

@@ -137,6 +137,27 @@
   text-align: center;
   padding-top: 8px;
 }
+.bitapps__container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(100px auto);
+  margin-top: 7rem;
+  margin-bottom: -5rem;
+}
+
+.bitapps__container p {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}
+.bitapps__container p a {
+  color: var(--thrid);
+}
+
 @media (max-width: 700px) {
   .footer__menu__container .social {
     display: grid;
