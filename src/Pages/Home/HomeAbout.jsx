@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/Home/homeabout.css";
 import HomeAbouts from "../../assets/Home-about.png";
-import Avatar from "../../assets/avatr.jpg";
+import Avatar from "../../assets/ava.png";
 const HomeAbout = () => {
   return (
     <div>
@@ -50,7 +50,9 @@ const HomeAbout = () => {
               </p>
               <button className="HA__btn">
                 <p>
-                  <span>Learn More</span>
+                  <span>
+                    <a href="/about">Learn More</a>
+                  </span>
                 </p>
               </button>
             </div>

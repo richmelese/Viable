@@ -95,6 +95,9 @@
 .bus__img {
   height: 12rem;
 }
+.bus__links {
+  color: var(--thrid);
+}
 @media (max-width: 700px) {
   #busin__bk {
     width: 26rem;

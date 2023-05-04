@@ -45,15 +45,15 @@ const Footer = () => {
               <a href="/Business">Business Activities</a>
             </li>
             <li>
-              <a href="/solution">Solutions</a>
+              <a href="/solution">Solution</a>
             </li>
             <li>
-              <a href="/news">products</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
         <div className="socail__header">
-          <p className="follow-text"> Follw on</p>
+          <p className="follow-text"> Follw Us On</p>
           <ul>
             <li className="social__media__icons">
               <span className="dot">

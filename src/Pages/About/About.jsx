@@ -13,6 +13,7 @@ const About = () => {
       <Aboutwhyus />
       <Homeservice />
       <Swiper />
+
       <FooterContact />
       <Footer />
     </div>

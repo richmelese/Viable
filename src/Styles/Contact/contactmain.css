@@ -96,6 +96,7 @@ textarea {
   background: #00c5df;
   transition: all 0.5s;
   cursor: pointer;
+  margin-left: 21rem;
 }
 
 .Send__btn span {
@@ -131,8 +132,11 @@ textarea {
   color: var(--six);
 }
 @media (max-width: 700px) {
+  .form__contact {
+    padding: 1rem;
+  }
   .Contact__Bk {
-    width: 28.2rem;
+    width: 37.2rem;
   }
   .contact__form__container {
     grid-template-columns: 1fr;
@@ -140,5 +144,15 @@ textarea {
   }
   .form__inline div {
     width: 100%;
+  }
+  .All__contact {
+    margin-top: -12rem;
+  }
+  .All__contact h1 {
+    font-size: 39px;
+    margin-top: 4rem;
+  }
+  .Send__btn {
+    margin-left: 0rem;
   }
 }

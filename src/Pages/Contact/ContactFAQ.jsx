@@ -26,7 +26,7 @@ const ContactFAQ = () => {
                 <img src={Call} alt="" />
               </div>
               <div>
-                <h2>Have Any Questions (00) 112 365 489</h2>
+                <h2>Have Any Questions +971 52 790 8500</h2>
               </div>
             </div>
             <p className="contact">Contact Us</p>

@@ -18,13 +18,15 @@ export default function SimpleAccordion() {
           id="panel1a-header"
         >
           <Typography>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>How do I become a customer?</p>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            To become a customer, fill out our business application. Submit the
+            form online, Due to the volume of applications, a sales
+            representative will contact you within 1-3 business days to setup
+            your account.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -35,14 +37,11 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Do you do international shipments?</p>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <Typography>Yes. We can also arrange for booking.</Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -52,13 +51,15 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Do you offer specials or promotions?</p>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Yes, we have monthly promotions released on the first of each month.
+            Login in to our website to see our monthly promotion flyer and
+            discount details. For current customers, your sales representative
+            will also have a printed copy for you to review.
           </Typography>
         </AccordionDetails>
       </Accordion>

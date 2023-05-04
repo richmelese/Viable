@@ -29,7 +29,12 @@ const HomeSloution = () => {
             </h6>
             <button>
               <p>
-                <span>See Materials</span>
+                <span>
+                  <a className="soln__links" href="/solution">
+                    {" "}
+                    See Materials
+                  </a>
+                </span>
               </p>
             </button>
           </div>

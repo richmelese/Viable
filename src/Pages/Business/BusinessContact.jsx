@@ -18,9 +18,7 @@ const BusinessContact = () => {
             }}
           >
             <p className="image-header">Product</p>
-            <h6 className="image__paragraph">
-              Construction and Building Material
-            </h6>
+            <h6 className="image__paragraph">Retail</h6>
           </div>
           <div
             style={{
@@ -30,7 +28,7 @@ const BusinessContact = () => {
             }}
           >
             <p className="image-header">Product</p>
-            <h6 className="image__paragraph">Foodstuff Products</h6>
+            <h6 className="image__paragraph">Construction Material</h6>
           </div>
           <div
             style={{
@@ -39,7 +37,7 @@ const BusinessContact = () => {
               backgroundImage: `url(${ImageTwo})`,
             }}
           >
-            <p className="image-header">Products</p>
+            <p className="image-header">Hospitality</p>
             <h6 className="image__paragraph">Hospitality – Hotel Supply</h6>
           </div>
         </div>
@@ -50,8 +48,9 @@ const BusinessContact = () => {
               {" "}
               <button>
                 <p>
-                  <a href="/contact"></a>
-                  <span>Contact Us</span>
+                  <a href="/contact">
+                    <span>Contact Us</span>
+                  </a>
                 </p>
               </button>
             </div>

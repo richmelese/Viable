@@ -43,8 +43,8 @@
 /* ===== */
 .footer__menu__container {
   display: grid;
-  grid-template-columns: 50% 30%;
-  gap: 20%;
+  grid-template-columns: 50% 25%;
+  gap: 25%;
   grid-auto-rows: minmax(200px auto);
   margin-top: -4rem;
   margin-left: -2rem;
@@ -85,6 +85,8 @@
 }
 .follow-text {
   text-align: left;
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 .social__media__icons {
   float: left;

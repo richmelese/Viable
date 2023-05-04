@@ -3,7 +3,7 @@ import "../../src/Styles/footercontact.css";
 const FooterContact = () => {
   return (
     <div>
-      <div className="container Cfooter__content">
+      <div className="Full__container Cfooter__content">
         <div>
           <p>Contact us today to learn more about our services.</p>
         </div>
@@ -13,7 +13,11 @@ const FooterContact = () => {
           </h6>
           <button>
             <p>
-              <span>Contact us</span>
+              <span>
+                <a className="contact__para" href="/contact">
+                  Contact us
+                </a>
+              </span>
             </p>
           </button>
         </div>

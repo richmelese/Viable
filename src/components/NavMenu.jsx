@@ -26,11 +26,11 @@ const NavMenu = () => {
                 <a href="/Business">Business Activities</a>
               </li>
               <li>
-                <a href="/Solution">Solutions</a>
+                <a href="/solution">Solutions</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/news">products</a>
-              </li>
+              </li> */}
               <li>
                 <a href="/contact">
                   <button className="menu-contacus-btn">

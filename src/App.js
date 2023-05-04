@@ -10,6 +10,7 @@ import NavMenu from "./components/NavMenu";
 import New from "./Pages/News/New";
 import Solution from "./Pages/Solution/Solution";
 import Contact from "./Pages/Contact/Contact";
+import Services from "./Pages/Services/Services";
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/Business" element={<Business />}></Route>
         <Route path="/news" element={<New />}></Route>
-        <Route path="/solution" element={<Solution />}></Route>
+        <Route path="/singlenews" element={<Solution />}></Route>
+        <Route path="/solution" element={<Services />}></Route>
       </Routes>
     </div>
   );

@@ -22,6 +22,9 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+.soln__links {
+  color: black;
+}
 .solution__container {
   display: grid;
   grid-template-rows: 1fr;

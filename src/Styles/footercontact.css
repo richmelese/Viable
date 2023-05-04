@@ -7,14 +7,18 @@
   --six: #ffff;
 }
 .Cfooter__content {
-  width: 84.3rem;
-  margin-left: -4rem;
+  /* width: 84.3rem;
+  margin-left: -4rem; */
   display: grid;
   grid-template-columns: 45% 45%;
   gap: 10%;
   grid-auto-rows: minmax(200px auto);
   background-color: var(--thrid);
   margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+.contact__para {
+  color: black;
 }
 .Cfooter__content p {
   font-style: normal;

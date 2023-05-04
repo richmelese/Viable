@@ -30,19 +30,19 @@ const HomeMain = () => {
           <div>
             <ul>
               <li>
-                <p>350+</p>
+                <p>150+</p>
               </li>
               <li>
                 <h6>Project Completed</h6>
               </li>
               <li>
-                <p>350+</p>
+                <p>50+</p>
               </li>
               <li>
                 <h6>Partner Brand</h6>
               </li>{" "}
               <li>
-                <p>350+</p>
+                <p>30+</p>
               </li>
               <li>
                 <h6>Team Member</h6>

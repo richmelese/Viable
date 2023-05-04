@@ -12,6 +12,7 @@ import "../../Styles/About/swiper.css";
 import { Pagination } from "swiper";
 import image from "../../assets/Photo.png";
 import test from "../../assets/test_photo.png";
+import Ava from "../../assets/ava.png";
 import { IoMdQuote } from "react-icons/io";
 import quot from "../../assets/quot.png";
 import White from "../../assets/white.png";
@@ -40,7 +41,7 @@ export default function App() {
             <div className="container All__swiper__container ">
               <div className="swiper__container ">
                 <div>
-                  <img className="swiper__test" src={test} alt="" />
+                  <img className="swiper__test" src={Ava} alt="" />
                 </div>
                 <div>
                   <h1 className="swiper__header">Miss Samrawite</h1>
@@ -61,7 +62,7 @@ export default function App() {
             <div className="container All__swiper__container">
               <div id="swpier__color" className="swiper__container">
                 <div>
-                  <img className="swiper__test" src={test} alt="" />
+                  <img className="swiper__test" src={Ava} alt="" />
                 </div>
                 <div>
                   <h1 className="swiper__header">Damana Tech</h1>
@@ -85,7 +86,7 @@ export default function App() {
           <div className="container All__swiper__container">
             <div className="swiper__container">
               <div>
-                <img className="swiper__test" src={test} alt="" />
+                <img className="swiper__test" src={Ava} alt="" />
               </div>
               <div>
                 <h1 className="swiper__header">Ato Abraham</h1>
@@ -108,7 +109,7 @@ export default function App() {
           <div className="container All__swiper__container">
             <div className="swiper__container">
               <div>
-                <img className="swiper__test" src={test} alt="" />
+                <img className="swiper__test" src={Ava} alt="" />
               </div>
               <div>
                 <h1 className="swiper__header">Bitapps Tech</h1>

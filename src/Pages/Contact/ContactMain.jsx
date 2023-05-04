@@ -43,7 +43,7 @@ const ContactMain = () => {
               />
               <label for="country">Phone Number</label>
               <input
-                type="number"
+                type="text"
                 id="lname"
                 name="lastname"
                 placeholder="Phone Number.."
