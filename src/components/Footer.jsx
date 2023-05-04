@@ -36,7 +36,7 @@ const Footer = () => {
         <div>
           <ul className="social">
             <li>
-              <a href="/home">Home</a>
+              <a href="./">Home</a>
             </li>
             <li>
               <a href="/about">About</a>{" "}
