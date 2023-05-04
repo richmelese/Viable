@@ -17,7 +17,7 @@ const NavMenu = () => {
 
             <ul className="menu">
               <li>
-                <a href="">Home</a>
+                <a href="/home">Home</a>
               </li>
               <li>
                 <a href="/about">About</a>{" "}
