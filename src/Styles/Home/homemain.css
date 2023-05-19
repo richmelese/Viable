@@ -114,3 +114,8 @@ hr {
     margin-left: -4rem;
   }
 }
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .right p {
+    margin-top: 4rem;
+  }
+}

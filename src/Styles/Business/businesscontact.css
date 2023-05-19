@@ -140,3 +140,8 @@
     margin-left: 8rem;
   }
 }
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .ContactB__container {
+    width: 123.3rem;
+  }
+}
