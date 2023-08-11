@@ -7,15 +7,28 @@ import HomeProduct from "./HomeProduct";
 import HomeSloution from "./HomeSloution";
 import FooterContact from "../../components/FooterContact";
 import Footer from "../../components/Footer";
+import Fade from "react-reveal/Fade";
+
 const Home = () => {
   return (
     <div>
-      <HomeMain />
-      <HomeAbout />
-      <HomeService />
-      <HomeProduct />
+      <Fade bottom duration={1500}>
+        <HomeMain />
+      </Fade>
+      <Fade bottom duration={2500}>
+        <HomeAbout />
+      </Fade>
+      <Fade bottom duration={1500}>
+        <HomeService />
+      </Fade>
+      <Fade bottom duration={1500}>
+        <HomeProduct />
+      </Fade>
       <HomeSloution />
-      <FooterContact /> <Footer />
+      <Fade bottom duration={1500}>
+        <FooterContact />
+      </Fade>{" "}
+      <Footer />
     </div>
   );
 };

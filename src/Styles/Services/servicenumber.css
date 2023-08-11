@@ -66,8 +66,8 @@
     display: none;
   }
   .sub__number {
-    grid-template-columns: 8% 46% 10%;
-    gap: 24%;
+    grid-template-columns: 8% 47% 10%;
+    gap: 19%;
   }
   .sub__number h1 {
     font-size: 35px;

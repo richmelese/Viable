@@ -21,7 +21,7 @@ html {
   padding: 4rem;
 }
 .Full__container__bus {
-  width: 110.5%;
+  width: 110%;
   margin-left: -4rem;
 }
 body {
@@ -49,10 +49,21 @@ button span a {
 }
 
 @media (max-width: 700px) {
+  :root {
+    --primary: #fff;
+    --container-width-lg: 100%;
+    margin: 2rem;
+  }
   .Full__container {
     padding: 0rem;
   }
   .Full__container__bus {
     padding: 2.5rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  :root {
+    margin: 1rem;
+    padding: 1rem;
   }
 }

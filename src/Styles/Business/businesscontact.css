@@ -119,6 +119,36 @@
   opacity: 1;
   right: 0;
 }
+.Shadow-contianer {
+  background-color: black;
+}
+.bc-image {
+  opacity: 0.4;
+}
+.Shadow-text {
+  background-color: red;
+}
+.Teext-container {
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: -6rem;
+}
+.Teext-container p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0px;
+  color: #ffffff;
+}
+.Teext-container h6 {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  color: #00c5df;
+}
 @media (max-width: 700px) {
   .Bcontact__container {
     grid-template-columns: 1fr;
@@ -142,6 +172,6 @@
 }
 @media (min-width: 1920px) and (max-width: 2560px) {
   .ContactB__container {
-    width: 123.3rem;
+    width: 128.3rem;
   }
 }

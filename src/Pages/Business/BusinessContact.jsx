@@ -9,36 +9,53 @@ const BusinessContact = () => {
       <section className="Bcontact-section">
         <p className="Header__business__contact">Our Products</p>
         <div className="Bcontact__container">
-          <div
-            className="bc-image"
-            style={{
-              width: "100%",
-              height: "25rem",
-              backgroundImage: `url(${Imageone})`,
-            }}
-          >
-            <p className="image-header">Product</p>
-            <h6 className="image__paragraph">Retail</h6>
+          <div>
+            <div className="Shadow-contianer">
+              <div
+                className="bc-image"
+                style={{
+                  width: "100%",
+                  height: "25rem",
+                  backgroundImage: `url(${Imageone})`,
+                }}
+              ></div>
+            </div>
+            <div className="Teext-container">
+              <p>Product</p>
+              <h6>Retail</h6>{" "}
+            </div>
           </div>
-          <div
-            style={{
-              width: "100%",
-              height: "25rem",
-              backgroundImage: `url(${ImageThree})`,
-            }}
-          >
-            <p className="image-header">Product</p>
-            <h6 className="image__paragraph">Construction Material</h6>
+          <div>
+            <div className="Shadow-contianer">
+              <div
+                className="bc-image"
+                style={{
+                  width: "100%",
+                  height: "25rem",
+                  backgroundImage: `url(${ImageThree})`,
+                }}
+              ></div>
+            </div>
+            <div className="Teext-container">
+              <p>Product</p>
+              <h6>Foodstuff</h6>{" "}
+            </div>
           </div>
-          <div
-            style={{
-              width: "100%",
-              height: "25rem",
-              backgroundImage: `url(${ImageTwo})`,
-            }}
-          >
-            <p className="image-header">Hospitality</p>
-            <h6 className="image__paragraph">Hospitality – Hotel Supply</h6>
+          <div>
+            <div className="Shadow-contianer">
+              <div
+                className="bc-image"
+                style={{
+                  width: "100%",
+                  height: "25rem",
+                  backgroundImage: `url(${ImageTwo})`,
+                }}
+              ></div>
+            </div>
+            <div className="Teext-container">
+              <p>Product</p>
+              <h6>Consttruction</h6>{" "}
+            </div>
           </div>
         </div>
         <div className="ContactB__container">

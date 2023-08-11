@@ -156,3 +156,8 @@ textarea {
     margin-left: 0rem;
   }
 }
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .Contact__Bk {
+    width: 120.3rem;
+  }
+}

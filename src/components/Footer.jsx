@@ -5,6 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
+import Vector from "../assets/footer-vec.png";
 const Footer = () => {
   return (
     <div>
@@ -20,14 +21,20 @@ const Footer = () => {
         <div>
           <h6 className="footer__email">
             <h2> Enter your email to get the laterst news</h2>
-            <div class="user-box">
+            <a href="#">
+              {" "}
+              <img class="Footer_icons" src={Vector} alt="" />
+            </a>
+
+            <form class="user-box">
               <input
-                type="text"
+                type="email"
                 placeholder="Email Address"
-                name=""
+                name="Email"
                 required=""
+                id="email"
               />
-            </div>
+            </form>
           </h6>
         </div>
       </div>
@@ -82,8 +89,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      {/* Bitapps */}
-
+      {/* ==============================Bitapps===================== */}
       <div className="bitapps__container">
         <p>
           © 2023 | Designed and developed by{" "}

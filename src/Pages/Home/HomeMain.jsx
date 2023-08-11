@@ -16,11 +16,11 @@ const HomeMain = () => {
             {" "}
             <hr />
           </div>
-          <div className="right">
+          {/* <div className="right">
             <p>
               2023<br></br> ALL RIGHT RESERVED
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* second section */}

@@ -4,7 +4,7 @@
 }
 .main__content {
   display: grid;
-  grid-template-columns: 40% 45% 15%;
+  grid-template-columns: 41% 53%;
   gap: 0%;
   grid-auto-rows: minmax(300px auto);
 }
@@ -81,13 +81,14 @@ hr {
 /* Media Quary */
 @media (max-width: 700px) {
   .image__content ul {
-    z-index: 0;
+    margin-top: -1rem;
   }
   .main__content {
     grid-template-columns: 1fr;
   }
   .hr__div {
     padding: 0rem;
+    display: none;
   }
   .main__content p {
     font-size: 32px;
@@ -109,13 +110,19 @@ hr {
   .banner__image {
     position: relative;
     z-index: -13;
-    margin-top: -7rem;
-    width: 25.7rem;
+    margin-top: -9rem;
+    width: 28rem;
     margin-left: -4rem;
   }
 }
 @media (min-width: 1920px) and (max-width: 2560px) {
   .right p {
     margin-top: 4rem;
+  }
+  .banner__image {
+    margin-left: 3rem;
+  }
+  .main__content p {
+    padding: 3rem;
   }
 }

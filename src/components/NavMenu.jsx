@@ -7,7 +7,7 @@ const NavMenu = () => {
       <section className="NavMenu__section">
         <header className="header">
           <div className="logo">
-            <a href="#">
+            <a href="/">
               <img src={log} alt="" />
             </a>
           </div>

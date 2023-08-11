@@ -2,7 +2,7 @@
 
 .main__image {
   background-repeat: no-repeat;
-  width: 110.5%;
+  width: 110%;
   margin-left: -4rem;
   height: 25rem;
 
@@ -97,7 +97,7 @@
   }
   .main__image {
     grid-template-columns: 1fr;
-    width: 26rem;
+    width: 28rem;
   }
   .main__image h1 {
     padding-top: 17rem;

@@ -78,7 +78,7 @@
 }
 @media (max-width: 700px) {
   .accordion {
-    grid-template-columns: 14% 80% 10%;
+    grid-template-columns: 14% 76% 10%;
     margin-left: -2rem;
   }
 }
