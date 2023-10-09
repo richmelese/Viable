@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap");
+
+.grid_form {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-auto-rows: minmax(100px auto);
+  background-image: url("../../Asset/Rectangle\ 4598.jpg");
+}
+.formimage {
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  /* position: relative; */
+}
+.coverimg {
+  position: absolute;
+  z-index: 1;
+  width: 52%;
+  /* margin-left: 4rem; */
+  margin-top: 0rem;
+  height: 47.2rem;
+  opacity: 0.6;
+}
+.containerform {
+  position: relative;
+  z-index: 10;
+  /* background-image: url(../Asset/Rectangle\ 4600.jpg); */
+  max-width: 400px;
+  /* margin: 0 auto; */
+  margin: 105px;
+  padding: 20px;
+  background: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 4rem;
+  height: 80%;
+}
+form {
+  line-height: normal;
+}
+
+.grid_form h2 {
+  color: #1c2752;
+  font-family: Mulish;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+  width: 86%;
+  padding: 16px;
+  border: 1px solid #b0afaf;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+.submit-button {
+  /* display: block; */
+  /* display: block; */
+  width: 76%;
+  padding: 10px;
+  background-color: #00c5df;
+  color: #fff;
+  border: none;
+  border-radius: -88px;
+  cursor: pointer;
+}
+textarea {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+  .grid_form {
+    grid-template-columns: 1fr;
+  }
+}

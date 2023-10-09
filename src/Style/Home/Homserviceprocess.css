@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap');
+
+.grid_process{
+ display: grid;
+ grid-template-rows: 40% 40% ;
+ grid-auto-rows: minmax(100px auto);
+ gap: 5%;
+ background: #F8F8F8;
+ margin-top: 2rem;
+}
+.grid_process p{
+    color: #7E7E7E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* width: 670px;
+    margin-left: 21rem */
+}
+.circles{
+    margin-top: 2rem;
+}
+.circles p{
+    margin-top: 3rem;
+}
+.iconimgs{
+    /* background-image: url(../Asset/Ellipse\ 331.png);
+    background-repeat: no-repeat; */
+}
+.lineimgs{
+    margin-bottom: 4rem;
+}
+
+.process h3{
+    color: #1C2752;
+text-align: center;
+font-family: Mulish;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+@media screen and (max-width: 700px) {
+    .grid_process{
+        grid-template-columns: 1fr;
+        margin-top: 10rem;
+       }
+       .grid_process p {
+      
+        /* width: 0px;
+        margin-left: 0rem; */
+    }
+    .circles{
+        display: none;
+    }
+}

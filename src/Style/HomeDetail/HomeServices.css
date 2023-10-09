@@ -1,0 +1,59 @@
+.HM__Services {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-left: 5rem;
+}
+.HM__Services h2 {
+  color: #1c2752;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+.HM__Services p {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.523%; /* 26.014px */
+  text-align: left;
+}
+.HM__Services .Second {
+  display: grid;
+  grid-template-columns: 48% 50%;
+  gap: 2%;
+}
+.HM__Services .Second .List {
+  display: grid;
+  grid-template-columns: 8% 90%;
+  gap: 2%;
+  margin-top: 3rem;
+}
+.HM__Services .Second .List h1 {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%; /* 26.1px */
+  text-align: left;
+}
+/*  */
+.icon-cont {
+  margin-top: -7rem;
+}
+@media screen and (max-width: 700px) {
+  .HM__Services {
+    grid-template-columns: 100%;
+    padding-left: 2rem;
+  }
+  .HM__Services h2 {
+    font-size: 27px;
+  }
+  .HM__Services .Second {
+    grid-template-columns: 100%;
+  }
+}

@@ -1,30 +1,35 @@
+// import React from 'react';
 import logo from "./logo.svg";
 import "./App.css";
+import Menu from "./Components/menu/Menu";
+import Footer from "./Components/Footer/Footer";
+import Home from "./Page/Home/Home";
+import About from "./Page/About/About";
+import Solution from "./Page/Solution/Solution";
+import Businessactivites from "./Page/BusinessActivites/Businessactivites";
 import { Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
+// import Contactus from "./Page/Contactus";
+import ContactUs from "./Page/Contact/Contact";
 
-import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
-import Business from "./Pages/Business/Business";
-import Menu from "./components/menu";
-import NavMenu from "./components/NavMenu";
-import New from "./Pages/News/New";
-import Solution from "./Pages/Solution/Solution";
-import Contact from "./Pages/Contact/Contact";
-import Services from "./Pages/Services/Services";
+import HomeDetail from "./Page/HomeDetail/HomeDetail";
 function App() {
   return (
     <div className="App">
-      <NavMenu />
-      {/* <Menu /> */}
+      <Header />
+      <Menu />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/Business" element={<Business />}></Route>
-        <Route path="/news" element={<New />}></Route>
-        <Route path="/singlenews" element={<Solution />}></Route>
-        <Route path="/solution" element={<Services />}></Route>
+        <Route path="/About" element={<About />}></Route>
+        <Route path="/Contactus" element={<ContactUs />}></Route>
+        <Route path="/Solution" element={<Solution />}></Route>
+        <Route
+          path="/Businessactivites"
+          element={<Businessactivites />}
+        ></Route>
+        <Route path="/HomeDetail" element={<HomeDetail />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

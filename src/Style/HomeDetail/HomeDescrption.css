@@ -1,0 +1,120 @@
+.HD__desc {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-left: 5rem;
+}
+.HD__desc h1 {
+  color: #1c2752;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+.HD__desc p {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.523%; /* 26.014px */
+  text-align: left;
+}
+.Color-bg {
+  display: grid;
+  grid-template-columns: 7% 91%;
+  gap: 0%;
+  margin-top: 2rem;
+}
+.Color-bg .first {
+  background-color: #1c2752;
+  height: 12rem;
+}
+.Color-bg .second {
+  height: 12rem;
+}
+.Color-bg .second p {
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 149.023%; /* 32.785px */
+  padding: 1rem;
+}
+.Haeder-four {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144.523%; /* 26.014px */
+  text-align: left;
+}
+/*  */
+.Second__Descrption {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-left: 5rem;
+}
+.Second__Descrption .Time {
+  display: grid;
+  grid-template-columns: 46% 48%;
+  gap: 4%;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  margin-top: 4rem;
+}
+.Second__Descrption .Time .Detail {
+  display: grid;
+  grid-template-columns: 24% 76%;
+}
+.Second__Descrption .Time .Detail h1 {
+  color: #1c2752;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  line-height: normal;
+}
+.Second__Descrption .Time .Detail .new-con {
+  margin-top: 2.5rem;
+}
+.Second__Descrption .Time .Detail .new-con-img {
+  margin-top: 2rem;
+}
+.Second__Descrption .Time .Detail p {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+@media screen and (max-width: 700px) {
+  .HD__desc {
+    grid-template-columns: 100%;
+    padding-left: 3rem;
+  }
+  .HD__desc h1 {
+    margin-top: 7rem;
+  }
+  .Color-bg .second {
+    height: 18rem;
+  }
+  .Color-bg .first {
+    background-color: #1c2752;
+    height: 18rem;
+  }
+  .Second__Descrption {
+    grid-template-columns: 100%;
+    padding-left: 2rem;
+  }
+  .Second__Descrption .Time {
+    grid-template-columns: 100%;
+  }
+}

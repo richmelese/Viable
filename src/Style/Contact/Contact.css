@@ -1,0 +1,164 @@
+.Contact__Container {
+  background-size: cover;
+  height: 14rem;
+}
+.Contact__Container h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: left;
+  padding: 5rem;
+}
+.small-icon {
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Main-contact h2 {
+  color: #1c2752;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: auto;
+  padding-top: 3rem;
+}
+.Main-contact p {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+/*  */
+.Contact__box {
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  gap: 0%;
+  /* padding: 3rem; */
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+.Contact__box .first h3 {
+  color: #1c2752;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Contact__box .first h4 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 151.523%; /* 45.457px */
+}
+.Contact__box .first button {
+  background: #1c2752;
+  width: 11rem;
+  height: 3.5rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5rem;
+}
+
+.Contact__box .first img {
+  margin-top: 3rem;
+}
+.Contact__box .second {
+  height: 1rem;
+}
+#Next {
+  margin-top: -2rem;
+  height: 29rem;
+  margin-bottom: -11rem;
+}
+.Contact__box .second p {
+  color: #00c5df;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Contact__box .second h4 {
+  color: var(--Style, #00c5df);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding-left: 2rem;
+}
+.Contact__box .second h5 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding-left: 2rem;
+  margin-top: -12px;
+}
+.Contact-hr {
+  width: 17rem;
+}
+.Contact__box .Third h2 {
+  color: #1c2752;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Contact__box .Third h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 151.523%; /* 45.457px */
+}
+.Contact__box .Third button {
+  background: #1c2752;
+  width: 11rem;
+  height: 3.5rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5rem;
+}
+.Contact__box .Third img {
+  margin-top: 3rem;
+}

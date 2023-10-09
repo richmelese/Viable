@@ -1,0 +1,90 @@
+.ContacForm__Container {
+  background-color: #f4f4f4;
+  margin-top: 7rem;
+}
+.ContacForm__Container h1 {
+  color: #1c2752;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.Main__Form {
+  padding: 2rem;
+}
+.Main__Form .First {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 0%;
+  margin-left: 10rem;
+}
+.Main__Form .Second {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 0%;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.Main__Form .Third {
+  margin-left: 7.6rem;
+  margin-top: 2rem;
+  margin-right: 4.9rem;
+}
+.Main__Form .four {
+  margin-left: 9rem;
+  margin-top: 2rem;
+  margin-right: 6rem;
+}
+.Main__Form button {
+  background: #00c5df;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  color: #1c2752;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .Contact__box {
+    grid-template-columns: 92%;
+    margin-left: 2rem;
+    gap: 10%;
+  }
+  #Next {
+    margin-bottom: -3rem;
+  }
+  .smallservice {
+    margin-top: 4rem;
+  }
+  .ContacForm__Container .smallservice {
+    margin-top: 18rem;
+  }
+  .Main__Form .First {
+    grid-template-columns: 100%;
+    gap: 23%;
+    margin-left: 0rem;
+  }
+  .Main__Form .Second {
+    grid-template-columns: 100%;
+    gap: 23%;
+    margin-left: 0rem;
+    margin-top: 44px;
+  }
+  .Main__Form .Third {
+    margin-left: 0rem;
+    margin-top: 3rem;
+    margin-right: -0.1rem;
+  }
+  .Main__Form .four {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-right: 0rem;
+  }
+}

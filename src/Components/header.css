@@ -1,0 +1,100 @@
+.grid_header {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: minmax(100px auto);
+}
+.headericon {
+  margin-left: -6rem;
+  margin-bottom: -0.5rem;
+}
+
+.spanemail {
+  color: #1c2752;
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 1rem;
+}
+.header-top-bar {
+  background: #f2f2f2;
+  font-size: 14px;
+  padding: 10px 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top-bar-info li a {
+  color: #fff;
+  margin-right: 20px;
+}
+.spanemai {
+  color: #1c2752;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0rem;
+}
+img {
+  margin-top: 1rem;
+}
+.social-media {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-auto-rows: minmax(100px auto);
+  margin-top: 0.9rem;
+}
+.one p {
+  color: #1c2752;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2rem;
+}
+.phone p {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1.4rem;
+  margin-left: 12rem;
+}
+.email p {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 12rem;
+  margin-top: -1.5rem;
+}
+.top-right-bar a span {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 700px) {
+  .grid_header {
+    grid-template-columns: 1fr;
+  }
+  .phone p {
+    margin-left: 10rem;
+  }
+  .header-top-bar {
+    width: 411px;
+  }
+}
