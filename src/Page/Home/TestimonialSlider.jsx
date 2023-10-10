@@ -6,7 +6,7 @@ const testimonialsData = [
     id: 1,
     name: "John Doe",
     text: "  I'm a small business owner, and this service has been agodsend! Viable is amazing, I'd absolutely recommend it toanyone work with Viable Trading.",
-    image: "https://via.placeholder.com/150",
+    image: "",
   },
   {
     id: 2,

@@ -13,7 +13,9 @@ const Homesecondmain = () => {
         {/* <button className="main_button"><p>Contact us</p></button> */}
         <div>
           <button className="main_button">
-            <p>Contact us</p>
+            <p>
+              <a href="/contactus">Contact us</a>
+            </p>
           </button>
         </div>
       </div>

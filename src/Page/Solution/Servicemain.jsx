@@ -14,9 +14,6 @@ const Servicemain = () => {
           <h1>Our Services</h1>
           {/* <button className="gl_button"><p>Our Services</p></button> */}
         </div>
-        <div>
-          {/* <img className="Grid-img" src={dashboard_img_1} alt="" /> */}
-        </div>
       </div>
     </section>
   );

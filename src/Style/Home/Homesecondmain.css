@@ -55,10 +55,10 @@ background: var(--Style, #00C5DF); */
   .heading {
     grid-template-columns: 1fr;
     margin-top: 11rem;
-    width: 105%;
+    width: 100%;
   }
   .headingtow {
-    font-size: 30px;
+    font-size: 22px;
     margin-top: -3rem;
   }
   .images {
@@ -69,10 +69,10 @@ background: var(--Style, #00C5DF); */
         height: 222px;
     } */
   .main_button {
-    margin-left: 2rem;
+    margin-left: 7rem;
     margin-top: -5rem;
     display: flex;
-    width: 286px;
+    width: 173px;
     height: 60px;
     padding: 20px 33px 21px 33px;
     justify-content: center;

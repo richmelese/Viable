@@ -1,4 +1,5 @@
 import React from "react";
+import "../../Style/About/aboutservice.css";
 import "../../Style/Home/Homeservice.css";
 import team1 from "../../Asset/Photo (7).png";
 import team2 from "../../Asset/Photo (8).png";
@@ -30,7 +31,7 @@ const Aboutservice = (props) => {
           <img className="New-imgs" src={team1} alt="" />
           <div className="card-content">
             <h3>David James</h3>
-            <p>CEO</p>
+            <h6 className="ceo__header">CEO</h6>
             {/* <p className="card-description">Lorem, ipsum dolor sit amet 
         impedit quae.</p>
         <div className="card-footer">
@@ -42,8 +43,7 @@ const Aboutservice = (props) => {
           <img className="New-imgs" src={team2} alt="" />
           <div className="card-content">
             <h3>Kevin Martin</h3>
-            <p>CEO</p>
-            {/* <p className="card-description">Lorem ipsum dolor sit amcon */}
+            <h6 className="ceo__header">CEO</h6>
           </div>
         </div>
         <div className="card">
@@ -51,7 +51,7 @@ const Aboutservice = (props) => {
           <div className="card-content">
             <h3 className="card-title"></h3>
             <h3>Sarrah Albert</h3>
-            <p>CEO</p>
+            <h6 className="ceo__header">CEO</h6>
             {/* <h2 className="card-title">Logistics Services</h2> */}
             {/* <p className="card-description">Lorem, </p> */}
           </div>

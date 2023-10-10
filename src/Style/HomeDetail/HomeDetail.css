@@ -93,13 +93,16 @@
     padding: 2rem;
   }
   .HD__container .First .ThreeImage {
-    width: 25rem;
+    width: 24rem;
     padding-left: 0rem;
   }
   .HD__container .First .OneImage {
-    width: 25rem;
+    width: 24rem;
   }
   .Second__Container {
     margin-top: -2rem;
+  }
+  .HD__container .First .TwoImage {
+    width: 24rem;
   }
 }

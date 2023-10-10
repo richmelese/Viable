@@ -13,22 +13,28 @@ import HomePartner from "../Home/HomePartener";
 import Homecounter from "../Home/Homecounter";
 import Servicemain from "./Servicemain";
 import Solutionservice from "./Solutionservice";
+import Fade from "react-reveal/Fade";
 
 // import Fetch from "./Fetch";
 
 const Solution = () => {
   return (
     <div>
-      <Servicemain />
+      <Fade bottom duration={1500}>
+        <Servicemain />
+      </Fade>
       {/* <Homeservice/> */}
-      <Solutionservice />
-      {/* <Homeabout/>  */}
-      <Homeserviceprocess />
-      {/* <Homeform/>
-      <Homebloge/> */}
-      {/* <Rating/> */}
-      {/* <Homecounter/> */}
-      <Hometestmonial />
+      <Fade bottom duration={1500}>
+        <Solutionservice />
+      </Fade>
+      <Fade bottom duration={1500}>
+        {/* <Homeabout/>  */}
+        <Homeserviceprocess />
+      </Fade>
+
+      <Fade bottom duration={1500}>
+        <Hometestmonial />
+      </Fade>
       {/* <HomePartner/> */}
     </div>
   );

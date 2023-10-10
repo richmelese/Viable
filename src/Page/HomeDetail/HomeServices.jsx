@@ -9,11 +9,9 @@ const HomeServices = () => {
         <div>
           <h2>Key benefits With Our Service</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Leo pharetra facilisis
-            ornare bibendum. Volutpat scelerisque at neque feugiat ac sit purus
-            sem. Commodo purus velit orci ac eu eget molestie commodo et.
-            Tincidunt egestas amet ac id amet elit. Dignissim aliquam laoreet
-            eget diam at sit.
+            When considering air freight shipping for your logistics and supply
+            chain needs, there are several key benefits that can significantly
+            impact your business operations
           </p>
         </div>
         <div></div>
@@ -25,7 +23,7 @@ const HomeServices = () => {
             </div>
             <div>
               {" "}
-              <h1>experience investor Technician.</h1>
+              <h1>Speed of Delivery .</h1>
             </div>
             {/*  */}
             <div className="">
@@ -33,7 +31,7 @@ const HomeServices = () => {
             </div>
             <div>
               {" "}
-              <h1>Your Electrical and Security System.</h1>
+              <h1>Reliability and Consistency .</h1>
             </div>
             {/*  */}
             {/*  */}
@@ -42,7 +40,7 @@ const HomeServices = () => {
             </div>
             <div>
               {" "}
-              <h1>sources whereas high standards</h1>
+              <h1>Global Reach:</h1>
             </div>
             {/*  */} {/*  */}
             <div className="">
@@ -50,7 +48,7 @@ const HomeServices = () => {
             </div>
             <div>
               {" "}
-              <h1>Credibly innovate granular internal</h1>
+              <h1>Reduced Transit Time</h1>
             </div>
             {/*  */}
             {/*  */} {/*  */}
@@ -59,7 +57,7 @@ const HomeServices = () => {
             </div>
             <div>
               {" "}
-              <h1>services for domestic and commercial.</h1>
+              <h1>Time-Sensitive Shipments</h1>
             </div>
             {/*  */}
           </div>

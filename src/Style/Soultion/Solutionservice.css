@@ -107,13 +107,12 @@
 }
 .card-content p {
   color: #7e7e7e;
-  text-align: center;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4rem;
-  text-align: center;
+  text-align: left;
 }
 .card-content h3 {
   color: #1c2752;
@@ -153,15 +152,15 @@
     grid-template-columns: 1fr;
   }
   .process p {
-    width: 247px;
+    width: 358px;
     color: #7e7e7e;
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-left: 9rem;
+    line-height: 28px;
+    margin-left: 2rem;
   }
   .process h3 {
     font-size: 35px;
@@ -174,7 +173,8 @@
     height: 18rem;
   }
   .grid_heading p {
-    margin-left: 0rem;
+    margin-left: 2rem;
     width: 325px;
+    font-size: 21px;
   }
 }

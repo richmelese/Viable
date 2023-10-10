@@ -56,4 +56,7 @@
   .HM__Services .Second {
     grid-template-columns: 100%;
   }
+  .second img {
+    width: 22rem;
+  }
 }

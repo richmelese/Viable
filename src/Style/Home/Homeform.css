@@ -98,4 +98,17 @@ textarea {
   .grid_form {
     grid-template-columns: 1fr;
   }
+  .containerform {
+    position: relative;
+    z-index: 10;
+    /* background-image: url(../Asset/Rectangle\ 4600.jpg); */
+    max-width: 478px;
+    /* margin: 0 auto; */
+    margin: 48px;
+    padding: 65px;
+    background: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    height: 71%;
+  }
 }

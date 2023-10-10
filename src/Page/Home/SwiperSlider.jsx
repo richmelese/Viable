@@ -25,7 +25,9 @@ export default function App() {
                 {/* <h1>LeuNet ICT Solutions</h1> */}
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
-                  <p>Our Services</p>
+                  <a href="/Solution">
+                    <p>Our Services</p>
+                  </a>{" "}
                 </button>
               </div>
               <div>
@@ -43,7 +45,9 @@ export default function App() {
                 {/* <h1>LeuNet ICT Solutions</h1> */}
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
-                  <p>Our Services</p>
+                  <a href="/Solution">
+                    <p>Our Services</p>
+                  </a>
                 </button>
               </div>
               <div>
@@ -61,7 +65,9 @@ export default function App() {
                 {/* <h1>LeuNet ICT Solutions</h1> */}
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
-                  <p>Our Services</p>
+                  <a href="/Solution">
+                    <p>Our Services</p>
+                  </a>{" "}
                 </button>
               </div>
               <div>

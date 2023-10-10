@@ -92,10 +92,10 @@ const footer = () => {
           </div>{" "}
         </div>
         <hr className="Footer-hr" />
-        <h2 className="Bitapps__Con">
+        {/* <h2 className="Bitapps__Con">
           © 2023 | Designed and developed by{" "}
           <a href="https://bitappstech.com/">Bitappstech</a>
-        </h2>
+        </h2> */}
       </div>
     </div>
   );

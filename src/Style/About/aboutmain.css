@@ -53,9 +53,17 @@
   margin-top: -2rem;
   margin-left: 8rem;
   width: 9rem;
+  color: #1c2752;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 18px;
+  padding-left: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .aboutp {
-  margin-top: -48rem;
+  margin-top: -40rem;
 }
 /* .aboutp{
     margin-top: -28rem;
@@ -103,14 +111,17 @@
   .aboutp {
     margin-top: 0rem;
   }
+  .grid_newbutton {
+    width: 0px;
+  }
   /* .grid_newbutton{
         grid-template-columns: 1fr;
 
     } */
   .content p {
-    width: 28rem;
+    width: 22rem;
     padding: 1rem;
-    margin-left: 24rem;
+    margin-left: 47rem;
     /* margin-top: -19rem; */
   }
   .content img {
@@ -119,9 +130,10 @@
     height: 8rem;
   }
   .content h3 {
-    font-size: 24px;
-    margin-left: 31rem;
+    font-size: 21px;
+    margin-left: 48rem;
     margin-top: -24rem;
+    width: 16rem;
   }
   .content {
     margin-top: 22rem;
@@ -133,7 +145,7 @@
   }
   .iconabout {
     /* margin-top: -3rem; */
-    margin-left: -67rem;
+    margin-left: -13rem;
     width: 3rem;
   }
 }

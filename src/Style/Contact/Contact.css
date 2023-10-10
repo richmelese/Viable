@@ -1,6 +1,8 @@
 .Contact__Container {
   background-size: cover;
   height: 14rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/Photo.png");
 }
 .Contact__Container h1 {
   color: #fff;

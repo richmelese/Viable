@@ -13,7 +13,7 @@
   font-weight: 800;
   line-height: normal;
   /* display: flex; */
-  padding-left: 15rem;
+  padding-left: 14rem;
   width: 51rem;
   margin-top: 6rem;
 }
@@ -57,8 +57,9 @@
     grid-template-columns: 1fr;
   }
   .New-home-container h1 {
-    width: 19rem;
-    padding-left: 8rem;
+    width: 17rem;
+    padding-left: 1rem;
+    font-size: 22px;
   }
   .gl_button {
     /* display: flex; */

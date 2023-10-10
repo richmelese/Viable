@@ -10,31 +10,27 @@ const HomeDecrption = () => {
         <div>
           <h1>Description</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Pulvinar ultricies et at non
-            pharetra urna rhoncus congue massa. Ac pretium maecenas praesent
-            enim pharetra vitae arcu. Vitae cursus varius non urna phasellus
-            ornare phasellus. Viverra adipiscing sodales id sem fermentum
-            rhoncus gravida nam dapibus. Arcu iaculis ante at quis felis in
-            ipsum. Consequat nunc felis etiam dignissim netus. Duis facilisis
-            venenatis sed fames a vitae. Curabitur quis accumsan non at.
+            Involves the transportation of goods and merchandise via aircraft.
+            It's a fast and efficient mode of shipping that is particularly
+            suitable for perishable, high-value, time-sensitive, or lightweight
+            goods. Here are key aspects of air freight shipping:
           </p>
           {/*  */}
           <div className="Color-bg">
             <div className="first"></div>
             <div style={{ backgroundColor: "#00C5DF" }} className="second">
               <p>
-                Lorem ipsum dolor sit amet consectetur. Rhoncus tincidunt leo
-                fames dolor iaculis aliquam vel turpis suscipit. Pretium lacus
-                ut non vitae mauris nec. Vulputate a eget netus at.
+                Speed and Efficiency: Air freight is the fastest mode of
+                transportation for goods over long distances. It allows for
+                quick delivery, often within a few days, making it ideal for
+                urgent shipments.
               </p>
             </div>
           </div>
           <h4 className="Haeder-four">
-            Lorem ipsum dolor sit amet consectetur. Ut tincidunt tristique
-            feugiat arcu natoque fermentum accumsan. Nullam imperdiet massa
-            interdum pellentesque laoreet. Quis volutpat arcu lorem feugiat.
-            Fringilla euismod mauris augue nulla nec egestas. Leo sagittis
-            tempus molestie.
+            Global Reach: Air freight enables access to a vast network of
+            airports and destinations worldwide, allowing businesses to reach
+            international markets efficiently.
           </h4>
         </div>
         <div></div>
@@ -48,7 +44,7 @@ const HomeDecrption = () => {
             </div>
             <div>
               <h1>24/7 Availability</h1>
-              <p>Lorem ipsum dolor sit amet consectetur. Sed.</p>
+              <p>Available at any time and usually, every day</p>
             </div>
             {/*  */}
             <div className="new-con-img">
@@ -56,7 +52,9 @@ const HomeDecrption = () => {
             </div>
             <div className="new-con">
               <h1>Process Technology</h1>
-              <p>Lorem ipsum dolor sit amet consectetur. Sed.</p>
+              <p>
+                The products and services produced and offered by the compan.
+              </p>
             </div>
             {/*  */}
           </div>
@@ -66,7 +64,7 @@ const HomeDecrption = () => {
             </div>
             <div>
               <h1>Affordable Price</h1>
-              <p>Lorem ipsum dolor sit amet consectetur. Sed.</p>
+              <p>competitive price for the Product(s)</p>
             </div>
             {/*  */}
             <div className="new-con-img">
@@ -74,7 +72,7 @@ const HomeDecrption = () => {
             </div>
             <div className="new-con">
               <h1>Free Estimation</h1>
-              <p>Lorem ipsum dolor sit amet consectetur. Sed.</p>
+              <p>Creating a custom estimate with Billdu takes mere moments.</p>
             </div>
             {/*  */}
           </div>
