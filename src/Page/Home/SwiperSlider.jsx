@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import Newbg from "../../Asset/Newbg.png";
 import "../../Style/Home/swiper.css";
 import "../../Style/Home/slidermain.css";
+import setting from "../../Asset/seeting (2).png"; 
 
 // import required modules
 import { Navigation } from "swiper/modules";
@@ -21,8 +22,10 @@ export default function App() {
           <div>
             {/* <img className="New-imgs" src={Newbg} alt="" /> */}
             <div className="New-home-container">
+          
               <div>
-                {/* <h1>LeuNet ICT Solutions</h1> */}
+              <p className="bannerp"><img id="settings"className="setting" src={setting} alt="" />We Provide Quality Services</p>
+               
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
                   <a href="/Solution">
@@ -40,9 +43,10 @@ export default function App() {
           {" "}
           <div>
             {/* <img className="New-imgs" src={Newbg} alt="" /> */}
-            <div className="New-home-container">
+            <div className="New-home-container2">
               <div>
-                {/* <h1>LeuNet ICT Solutions</h1> */}
+              <p className="bannerp"><img id="settings"className="setting" src={setting} alt="" />We Provide Quality Services</p>
+                
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
                   <a href="/Solution">
@@ -60,9 +64,10 @@ export default function App() {
           {" "}
           <div>
             {/* <img className="New-imgs" src={Newbg} alt="" /> */}
-            <div className="New-home-container">
+            <div className="New-home-container3">
               <div>
-                {/* <h1>LeuNet ICT Solutions</h1> */}
+              <p className="bannerp"><img id="settings"className="setting" src={setting} alt="" />We Provide Quality Services</p>
+               
                 <h1>Delivering Excellence in Every trade</h1>
                 <button className="gl_button">
                   <a href="/Solution">

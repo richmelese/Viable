@@ -1,10 +1,10 @@
 import React from "react";
 import "../../Style/Home/Homserviceprocess.css";
 // import Homserviceprocess from "../../style/Home/Homserviceprocess.css";
-import circles3 from "../../Asset/Group 9016.png";
-import circles1 from "../../Asset/Group 9014 (1).png";
-import circles2 from "../../Asset/Group 9015.png";
-import circles from "../../Asset/Group 9013.png";
+import circles3 from "../../Asset/oneprocess.png";
+import circles1 from "../../Asset/threeprocess.png";
+import circles2 from "../../Asset/twoprocess.png";
+import circles from "../../Asset/process4.png";
 
 import linesproces from "../../Asset/Line 16.png";
 import icon from "../../Asset/grommet-icons_select.png";
@@ -23,14 +23,37 @@ const Homeserviceprocess = () => {
             clearance.
           </p>
         </div>
-        <div className="circles">
+        {/* <div className="circles">
           <img className="circlesimgs" src={circles3} alt="" />{" "}
           <img className="lineimgs" src={linesproces} alt="" />{" "}
+         
           <img className="circlesimgs" src={circles2} alt="" />{" "}
           <img className="lineimgs" src={linesproces} alt="" />{" "}
+        
           <img className="circlesimgs" src={circles1} alt="" />{" "}
           <img className="lineimgs" src={linesproces} alt="" />{" "}
+         
           <img className="circlesimgs" src={circles} alt="" />
+          
+        </div> */}
+        <div className="new-cirle">
+          <div className="">
+          <img className="circlesimgs" src={circles3} alt="" />{" "}
+          <img className="lineimgs" src={linesproces} alt="" />{" "}
+          <p>Select Freight </p>
+          </div>
+          <div className="">
+          <img className="circlesimgs" src={circles2} alt="" />{" "}
+          <img className="lineimgs" src={linesproces} alt="" />{" "}
+          <p>Create Invoice</p>
+          </div>
+          <div className="">
+          <img className="circlesimgs" src={circles1} alt="" />{" "}
+          <img className="lineimgs" src={linesproces} alt="" />{" "}
+          <p>Secure Payment</p>
+          </div>
+          <div className="forth"><img className="circlesimgs" src={circles} alt="" /><p>Fast Delivery</p></div>
+          
         </div>
       </div>
     </section>

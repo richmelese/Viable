@@ -10,6 +10,7 @@ const Aboutbanner = () => {
       <div className="About-Us">
         <div>
           <h1>About Us</h1>
+          <h5>Home /</h5><h6>About us</h6>
           {/* <button className="gl_button"><p>Our Services</p></button> */}
         </div>
         <div>

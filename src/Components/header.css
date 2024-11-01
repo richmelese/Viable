@@ -15,9 +15,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 .header-top-bar {
+  width: 100%;
   background: #f2f2f2;
   font-size: 14px;
   padding: 10px 0px;
@@ -29,6 +30,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  position: fixed;
+  z-index: 4;
+  margin-top: -7rem
+  
 }
 
 .top-bar-info li a {
@@ -49,9 +54,17 @@ img {
 }
 .social-media {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
+display: flex;
+margin-top: 0.5rem;
+margin-left: 3rem;
+  /* grid-template-columns: 20% 20% 20% 20%;
   grid-auto-rows: minmax(100px auto);
-  margin-top: 0.9rem;
+  margin-top: 0.9rem; */
+}
+.social-media img{
+width: 1rem;
+padding: 0.4rem;
+
 }
 .one p {
   color: #1c2752;
@@ -70,7 +83,7 @@ img {
   font-weight: 400;
   line-height: normal;
   margin-top: -1.4rem;
-  margin-left: 12rem;
+  margin-left: 10rem;
 }
 .email p {
   color: #7e7e7e;
@@ -79,8 +92,8 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 12rem;
-  margin-top: -1.5rem;
+  margin-left: 11.5rem;
+  margin-top: -1.4rem;
 }
 .top-right-bar a span {
   color: #fff;
@@ -94,7 +107,11 @@ img {
   .phone p {
     margin-left: 10rem;
   }
+  .social-media{
+    margin-left: 6.5rem;
+  }
   .header-top-bar {
     width: 411px;
+    display: none;
   }
 }

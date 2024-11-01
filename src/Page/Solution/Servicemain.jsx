@@ -12,6 +12,7 @@ const Servicemain = () => {
         <div>
           {/* <h1>LeuNet ICT Solutions</h1> */}
           <h1>Our Services</h1>
+          <h5>Home /</h5><h6>Our Service</h6>
           {/* <button className="gl_button"><p>Our Services</p></button> */}
         </div>
       </div>

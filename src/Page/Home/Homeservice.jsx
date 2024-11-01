@@ -4,6 +4,7 @@ import Newbg from "../../Asset/card1.png";
 import cards2 from "../../Asset/card2.png";
 import cards4 from "../../Asset/card3.png";
 import small from "../../Asset/Group_9008-removebg-preview.png";
+import plus from"../../Asset/iconread.jpg";
 const Homeservice = (props) => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Homeservice = (props) => {
         <div>
           <h1 className="serviceheading">Our Service</h1>
         </div>
-        <div>
+        <div className="home-service">
           <p className="paragrap">
             Viable General Trading is a one-stop solution for all your trading
             needs. We provide a wide range of services to cater to the diverse
@@ -28,7 +29,7 @@ const Homeservice = (props) => {
         </div>
       </div>
       <div className="grid_containerservice">
-        {/* <h1>Our Service</h1> */}
+      
         <div className="card">
           <img className="New-imgs" src={Newbg} alt="" />
           <div className="card-content">
@@ -45,9 +46,9 @@ const Homeservice = (props) => {
             <div className="card-footerblog">
               <div className="read">
                 {" "}
-                <a href="#">ReadMore</a>
+                <a href="/homedetail">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
@@ -67,9 +68,9 @@ const Homeservice = (props) => {
             <div className="card-footerblog">
               <div className="read">
                 {" "}
-                <a href="#">ReadMore</a>
+                <a href="/homedetail">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="plusssecond"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
@@ -89,9 +90,9 @@ const Homeservice = (props) => {
             <div className="card-footerblog">
               <div className="read">
                 {" "}
-                <a href="#">ReadMore</a>
+                <a href="/homedetail">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>

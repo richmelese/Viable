@@ -30,17 +30,54 @@
 .service-imgs {
   width: 100%;
 }
+.Solution-Our-service h5{
+  position: absolute;
+  color: var(--Style, #00C5DF);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -7rem;
+  margin-left: 11rem;
+}
+.Solution-Our-service h6{
+  position: absolute;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -7rem;
+  margin-left: 15rem;
+}
 @media screen and (max-width: 700px) {
   .Solution-Our-service {
     grid-template-columns: 1fr;
   }
   .service-imgs {
-    width: 100%;
+    width: 105%;
     height: 91px;
   }
-  .Solution-Our-service h1 {
-    margin-top: -4rem;
-    margin-left: 3rem;
-    font-size: 37px;
+  .Solution-Our-service h6 {
+    font-size: 15px;
+    margin-top: -2rem;
+    margin-left: 6rem;
+  }
+  .Solution-Our-service h5 {
+    position: absolute;
+    color: var(--Style, #00C5DF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -2rem;
+    margin-left: 2rem}
+    .Solution-Our-service h1 {
+      margin-top: -5rem;
+      margin-left: 2rem;
+      font-size: 31px;
   }
 }

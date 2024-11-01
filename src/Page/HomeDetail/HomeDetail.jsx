@@ -15,6 +15,7 @@ import HomeServices from "./HomeServices";
 import Hometestmonial from "../Home/Hometestmonial";
 import Swiper from "../../Page/Home/Slider";
 import Fade from "react-reveal/Fade";
+import HomePartner from "../Home/HomePartener";
 
 const HomeDetail = () => {
   return (
@@ -62,10 +63,10 @@ const HomeDetail = () => {
 
       <div className="Detail__Test">
         <Fade bottom duration={1500}>
-          <Hometestmonial />
+          {/* <Hometestmonial /> */}
         </Fade>
         <Fade bottom duration={1500}>
-          <Swiper />
+          {/* <HomePartner /> */}
         </Fade>
       </div>
     </div>

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../../Style/About/aboutmain.css";
 import aboutpic from "../../Asset/aboutimage.png";
 import secondbutpic from "../../Asset/servicebanner.jpg";
+import abt2 from"../../Asset/abt2.PNG";
+import abt3 from "../../Asset/abt3.PNG";
+import abt4 from "../../Asset/abt4.PNG";
 
 const ContentDisplay = () => {
   const [activeButton, setActiveButton] = useState("button1");
@@ -51,7 +54,7 @@ const ContentDisplay = () => {
         return (
           <div className="content">
             <h3>Aspiration & Vision</h3>
-            <img src={secondbutpic} alt="Content Image" />
+            <img src={abt2} alt="Content Image" />
             <p>
               Our vision is to be a global leader in delivering seamless and
               sustainable solutions that enable businesses to optimize their
@@ -78,29 +81,23 @@ const ContentDisplay = () => {
               destinations swiftly, sustainably, and reliably. Our vision is to
               be a global leader in revolutionizing the way products are
               transported, optimizing supply chains, and contributing to a more
-              sustainable future. In the dynamic world of global trade, a
-              trading company's success hinges on its ability to seamlessly
-              integrate products, logistics, and transportation. At the core of
-              this success lies a powerful aspiration – a vision that propels us
-              forward, pushing boundaries and redefining standards
+              sustainable future. 
             </p>
+           
           </div>
         );
       case "button3":
         return (
           <div className="content">
             <h3>Strength</h3>
-            <img src={secondbutpic} alt="Content Image" />
+            <img src={abt3} alt="Content Image" />
             <p>
               Strength Logistics & Transportation is a leading provider of
               comprehensive logistics and transportation solutions, dedicated to
               empowering businesses with reliable, efficient, and cost-effective
               services. Our commitment to excellence, innovation, and
               sustainability drives our operations, ensuring seamless product
-              delivery and customer satisfaction.ight services from UAE to
-              Africa, Canada, Asia, Europe, the United States, Australia, and
-              GCC countries we strive to exceed expectations through our
-              commitment to excellence. Viable Stainless Steel Cleaning and
+              delivery and customer satisfaction. Viable Stainless Steel Cleaning and
               Polishing services offer the best solution for cleaning,
               restoring, and preserving original stainless steel finish. Our
               quality of work speaks for itself. With us, it is easy to
@@ -121,9 +118,7 @@ const ContentDisplay = () => {
               expectations and empower businesses to flourish in an
               interconnected world Viable Stainless Steel Cleaning and Polishing
               services offer the best solution for cleaning, restoring, and
-              preserving original stainless steel finish. Our quality of work
-              speaks for itself. With us, it is easy to differentiate between
-              pretreated and treated stainless steel
+              preserving original stainless steel finish. 
             </p>
           </div>
         );
@@ -131,7 +126,7 @@ const ContentDisplay = () => {
         return (
           <div className="content">
             <h3>Quality & Policy</h3>
-            <img src={secondbutpic} alt="Content Image" />
+            <img src={abt4} alt="Content Image" />
             <p>
               Maintain complete and accurate records of product origins,
               manufacturing processes, and transportation details to ensure
@@ -146,6 +141,7 @@ const ContentDisplay = () => {
             </p>
             <p>
               {" "}
+          
               Having a well-developed and modern infrastructure, including
               warehouses, distribution centers, and transportation facilities,
               ensures smooth logistics operations and timely deliveries.
@@ -159,9 +155,7 @@ const ContentDisplay = () => {
               expectations and empower businesses to flourish in an
               interconnected world Viable Stainless Steel Cleaning and Polishing
               services offer the best solution for cleaning, restoring, and
-              preserving original stainless steel finish. Our quality of work
-              speaks for itself. With us, it is easy to differentiate between
-              pretreated and treated stainless steel
+              preserving original stainless steel finish. 
             </p>
           </div>
         );

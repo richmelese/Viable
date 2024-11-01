@@ -4,6 +4,32 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap");
 
+.New-home-container2 h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* display: flex; */
+  padding-left: 14rem;
+  width: 51rem;
+  margin-top: 6rem;
+}
+.New-home-container3 h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* display: flex; */
+  padding-left: 14rem;
+  width: 51rem;
+  margin-top: 6rem;
+}
 .New-home-container h1 {
   color: #fff;
   text-align: center;
@@ -27,6 +53,47 @@
   padding: 3rem;
   margin-top: -7rem;
   /* width: 38rem; */
+}
+.New-home-container2 {
+  display: grid;
+  grid-template-rows: 80%;
+  grid-auto-rows: minmax(100px auto);
+  /* gap: 10%; */
+  position: relative;
+  z-index: 10;
+  padding: 3rem;
+  margin-top: -7rem;
+  /* width: 38rem; */
+}
+.New-home-container3 {
+  display: grid;
+  grid-template-rows: 80%;
+  grid-auto-rows: minmax(100px auto);
+  /* gap: 10%; */
+  position: relative;
+  z-index: 10;
+  padding: 3rem;
+  margin-top: -7rem;
+  /* width: 38rem; */
+}
+.setting{
+margin-bottom: -1.5rem;
+}
+.New-home-container.img{
+  width: 3rem;
+}
+.bannerp{
+  color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: rgba(255, 255, 255, 0.20);
+width: 19rem;
+margin-left: 29rem;
+padding: 0px 2px 7px 2px;
+margin-top: 3rem;
 }
 .gl_button p {
   color: #1c2752;
@@ -56,10 +123,35 @@
   .New-home-container {
     grid-template-columns: 1fr;
   }
+  .New-home-container2 {
+    grid-template-columns: 1fr;
+  }
+  .New-home-container3 {
+    grid-template-columns: 1fr;
+  }
+  .New-home-container2 h1 {
+    width: 17rem;
+    padding-left: 1rem;
+    font-size: 22px;
+  }
+  .New-home-container3 h1 {
+    width: 17rem;
+    padding-left: 1rem;
+    font-size: 22px;
+  }
   .New-home-container h1 {
     width: 17rem;
     padding-left: 1rem;
     font-size: 22px;
+  }
+  .setting{
+    margin-left: -1rem;
+    }
+  .bannerp{
+    width: 17rem;
+    margin-left: 1rem;
+    padding: 0px 2px 7px 8px;
+   margin-bottom: -3rem;
   }
   .gl_button {
     /* display: flex; */
@@ -75,4 +167,36 @@
     background: var(--Style, #00c5df);
     border: none;
   }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+   
+  .bannerp {
+    margin-left: 45rem;
+  } 
+  .New-home-container h1{
+    padding-left: 31rem;
+  }
+  .New-home-container2 h1{
+    padding-left: 31rem;
+  }
+  .New-home-container3 h1{
+    padding-left: 31rem;
+  }
+  .grid_newbutton {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    width: 1268px;
+    margin-left: 14rem;
+    margin-top: 2rem;
+}
+.content{
+  margin-left: 3rem;
+  width: 51rem;
+}
+.aboutp {
+  margin-top: -32rem;
+}
+.aboutp p {
+  margin-top: -2rem;
+  margin-left: 13rem;}
 }

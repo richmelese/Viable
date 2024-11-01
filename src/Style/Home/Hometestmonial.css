@@ -6,11 +6,11 @@
 
 .grid_testmonial {
   display: grid;
-  grid-template-columns: 47% 40%;
+  grid-template-columns: 47% 47%;
   grid-auto-rows: minmax(100px auto);
-  margin-top: 2rem;
-  gap: 5%;
-  margin-left: 9rem;
+  margin-top: 8rem;
+  gap: 0%;
+  margin-left: 8rem;
 }
 /* .qeution p{
     color: #1C2752;
@@ -30,6 +30,9 @@
 } */
 .testquestion {
   background: var(--Style, #00c5df);
+}
+.testimonia {
+  margin-left: -2rem;
 }
 .testquestion h3 {
   margin-left: -12rem;
@@ -56,11 +59,14 @@
   margin-top: 0rem;
   margin-right: 1rem;
 }
-.qeution {
+.qeution img{
   margin-left: -18rem;
+  margin-top: -3rem;
 }
-.testi {
+.testi img{
   margin-left: -20rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 .testquestion h2 {
   color: #1c2752;
@@ -77,10 +83,39 @@
     grid-template-columns: 1fr;
     margin-left: -1rem;
   }
+  .testquestion {
+    background: var(--Style, #00c5df);
+    width: 26rem;
+  }
   .qeution {
     display: none;
   }
   .testi {
     display: none;
   }
+  .testquestion h2 {
+    font-size: 21px;
+  }
+  .testquestion h3 {
+    margin-left: -3rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+   
+  .testimonia {
+    margin-left: -17rem;
+  }
+  .grid_testmonial {
+    
+    margin-left: 10rem;
+  }
+  .testi img {
+    margin-left: -38rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+.qeution img {
+  margin-left: -36rem;
+  margin-top: -3rem;
+}
 }

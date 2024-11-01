@@ -59,13 +59,13 @@ line-height: normal;
   font-size: 1.5em;
 }
 .card {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
     margin: 10px;
-    max-width: 300px;
+    max-width: 300px; */
   }
   
   .card:hover {
@@ -73,9 +73,9 @@ line-height: normal;
   }
   
   .card-image {
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 8px; */
   }
   
   .card-content {
@@ -105,7 +105,7 @@ font-weight: 400;
 line-height: normal;
   }
   .read a{
-    margin-left: -30rem;
+    margin-left: -19rem;
     color: #1C2752;
     font-family: Inter;
     font-size: 20px;

@@ -26,11 +26,11 @@ const Menu = () => {
                 {/* <a href="/about">About</a> */}
               </li>
               <li>
-                <Link to="/Solution">Solution</Link>
+                <Link to="/Solution">Service</Link>
                 {/* <a href="/Solution">Solution</a> */}
               </li>
               <li>
-                <Link to="/homedetail">BusinessActivites</Link>
+                <Link to="/homedetail">Business Activities</Link>
                 {/* <a href="/businessactivites">BusinessActivites</a> */}
               </li>
               <li>

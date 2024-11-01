@@ -8,8 +8,7 @@ const Homebloge = (props) => {
   return (
     <div>
       <div className="grid_heading">
-        {/* <div className='
-            smallservice'><img className="" src={small} alt="" />our service</div> */}
+      
         <div>
           <h1 className="serviceheading">Latest Blog Post</h1>
         </div>
@@ -22,7 +21,7 @@ const Homebloge = (props) => {
         </div>
       </div>
       <div className="grid_containerservice">
-        {/* <h1>Our Service</h1> */}
+     
         <div className="card">
           <img className="blog-imgs" src={Newbg} alt="" />
           <div className="card-content">
@@ -37,7 +36,7 @@ const Homebloge = (props) => {
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
  gap: 5%;
  background: #F8F8F8;
  margin-top: 2rem;
+ padding-left: 5rem;
 }
 .grid_process p{
     color: #7E7E7E;
@@ -22,6 +23,36 @@
     line-height: normal;
     /* width: 670px;
     margin-left: 21rem */
+}
+.forth{
+    margin-left: -8rem;
+}
+.new-cirle{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    /* padding: 2rem; */
+    margin-left: 11rem;
+    margin-top: 2rem;
+    
+   
+}
+.new-cirle p{
+    color: #1C2752;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.process p{
+    color: #7E7E7E;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .circles{
     margin-top: 2rem;
@@ -39,24 +70,58 @@
 
 .process h3{
     color: #1C2752;
-text-align: center;
-font-family: Mulish;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 @media screen and (max-width: 700px) {
     .grid_process{
         grid-template-columns: 1fr;
         margin-top: 10rem;
        }
+       .forth{
+        
+            margin-left: 1rem;
+            margin-bottom: 11rem;
+    }
+    .grid_process{
+      
+        padding-left: 0rem;
+       }
+       .new-cirle{
+        grid-template-columns: 1fr;
+        margin-left: -1rem;
+        margin-top: -4rem;
+       }
        .grid_process p {
       
         /* width: 0px;
         margin-left: 0rem; */
     }
-    .circles{
+
+    .lineimgs{
         display: none;
     }
+    
 }
+@media (min-width: 1920px) and (max-width: 2560px) {
+   
+      .process p {
+        margin-left: 34rem;
+      }
+      .forth {
+        margin-left: -23rem;
+    }
+    /* .one{
+        margin-left: 3rem; 
+    }
+    .two{
+        margin-left: 3rem; 
+    }
+    .three{
+        margin-left: 3rem; 
+    } */
+    }

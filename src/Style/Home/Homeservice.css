@@ -64,28 +64,56 @@ line-height: normal;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
     margin: 10px;
-    max-width: 300px;
+    max-width: 300px; 
+  
+
   }
   
   .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
-  .card-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+  .home-service p{
+    color: #7E7E7E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
-  
+  .card img {
+    width: 114.9%;
+    margin-left: -1.25rem;
+    margin-top: -1.3rem;
+    height: auto;
+    border-radius: 8px
+  }
+  .card-footerblog{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 40% 40%; */
+  }
   .card-content {
     padding-top: 10px;
   }
-  
+  .plusssecond img{
+    margin-left: 3.3rem;
+    width: 5rem;
+    /* margin-top: 0rem; */
+    margin-bottom: -4.8rem;
+    margin-right: -1.4rem;
+  }
+  .pluss img{
+    margin-left: 3.3rem;
+    width: 5rem;
+    /* margin-top: 0rem; */
+    margin-bottom: -1.8rem;
+    margin-right: -1.4rem;
+  }
   .card-title {
-    /* font-size: 1.2em;
-    margin-bottom: 5px; */
+    
     color: #1C2752;
     text-align: center;
     font-family: Mulish;
@@ -96,7 +124,7 @@ line-height: normal;
   }
   
   .card-description {
-    /* font-size: 0.9em; */
+    
     text-align: left;
     color: #7E7E7E;
 font-family: Inter;
@@ -120,8 +148,17 @@ line-height: normal;
       width: 100%;
       height: 18rem;
     }
+   
     /* .circles {
       margin-top: 2rem;
       display: none;
   } */
+  }
+  @media (min-width: 1920px) and (max-width: 2560px) {
+    .grid_heading p {
+     
+      margin-left: 37rem;}
+      .process p {
+        margin-left: 34rem;
+      }
   }

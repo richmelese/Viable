@@ -2,15 +2,18 @@ import React from "react";
 import form from "../../Asset/Rectangle 4598.jpg";
 import blue from "../../Asset/Rectangle 4600.jpg";
 import "../../Style/Home/Homeform.css";
+import meet from "../../Asset/meetus.png";
 const Homeform = () => {
   return (
     <section>
       <div className="grid_form">
         {/* <img className="formimage" src={form} alt="" /> */}
-        {/* <img className="coverimg" src={blue} alt="" /> */}
-
+        <img className="meetus" src={meet} alt="" />
+     <div></div>
+        <h2>Appointment Form</h2>
+        <div></div>
         <div className="containerform">
-          <h2>Application Form</h2>
+            
           <form id="signup-form">
             <div class="form-group">
               <i class="bx bx-Profile"></i>
@@ -68,9 +71,12 @@ const Homeform = () => {
               Submit
             </button>
           </form>
+       
         </div>
+        
         <img className="coverimg" src={blue} alt="" />
       </div>
+      
     </section>
   );
 };

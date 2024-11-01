@@ -8,6 +8,7 @@ import Homeserviceprocess from "./Homeserviceprocess";
 import Homeform from "./Homeform";
 import Homebloge from "./Homebloge";
 import Rating from "./Rating";
+// import Card from "./Card";
 import Testimonaialslider from "./TestimonialSlider";
 import Hometestmonial from "./Hometestmonial";
 import HomePartner from "./HomePartener";
@@ -36,7 +37,9 @@ const Home = () => {
       <Fade bottom duration={1500}>
         <Homeserviceprocess />
       </Fade>
-
+      <Fade bottom duration={1500}>
+        {/* <Card/> */}
+      </Fade>
       <Fade bottom duration={1500}>
         <Homeform />
       </Fade>

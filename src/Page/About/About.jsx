@@ -14,7 +14,7 @@ const About = () => {
       {/* <ContentDisplay/> */}
       <Aboutmain />
       <Homecounter />
-      <Aboutservice />
+      {/* <Aboutservice /> */}
       <HomePartner />
 
       {/* <Footer /> */}

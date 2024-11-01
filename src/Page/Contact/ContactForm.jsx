@@ -15,32 +15,32 @@ const ContactForm = () => {
           <div className="Main__Form">
             <div className="First">
               <div>
-                <input type="text" name="" id="" placeholder="Fisrt Name" />
+                <input type="text" name="" id="" required  placeholder="Fisrt Name" />
               </div>
               <div>
-                <input type="text" placeholder="Last Name" />
+                <input type="text" required placeholder="Last Name" />
               </div>
             </div>
             <div className="Second">
               <div>
-                <input type="email" name="" id="" placeholder="Email" />
+                <input type="email" name="" id=""  required placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text"  required placeholder="Phone Number" />
               </div>
             </div>
             {/*  */}
             <div className="Third">
-              <input type="text" placeholder="Last Name" />
+              <input type="text"  required placeholder="Last Name" />
             </div>
             <div className="four">
               {" "}
-              <textarea
+              <textarea  required
                 placeholder="Your Message"
                 rows="10"
                 cols="90"
               ></textarea>
-              <button>Submite</button>
+              <button>Submit</button>
             </div>
           </div>
         </form>

@@ -33,7 +33,7 @@
 .Icon-container h4 {
   color: #fff;
   font-family: Inter;
-  font-size: 17px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -81,6 +81,16 @@
   margin-left: 2rem;
 }
 .Footer-Container li {
+  list-style: none;
+  text-align: left;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175.023%; /* 31.504px */
+}
+.Footer-Container li a{
   list-style: none;
   text-align: left;
   color: #fff;
@@ -142,12 +152,18 @@
   .Second-footer {
     margin-left: 0rem;
   }
+  .All__Footer {
+    background-color: #1c2752;
+    padding: 2rem;
+    margin-top: 7rem;
+    width: 21.6rem;}
   .Footer-hr {
     display: none;
   }
   .Vertical-hr {
     display: none;
   }
+ 
   .Vertical-hr-two {
     display: none;
   }

@@ -18,8 +18,9 @@ const Header = () => {
           <div className="email">
             <i class="email"></i>
             <img className="headericon" src={email} alt="" />
-            <span className="spanemail">MailUS</span>
-            <p>Info@Viable.com </p>
+            <a href="mailto:info@viablegt.com"> <span className="spanemail">Mail Us</span></a>
+            
+            <p>info@viablegt.com</p>
           </div>
 
           {/* <div class="two"> */}
@@ -29,18 +30,18 @@ const Header = () => {
             <p> +971 52 790 8500</p>
           </div>
           <div className="social-media">
-            <div>
-              <img src={Facebook} alt="" />
-            </div>
-            <div>
-              <img src={Instagram} alt="" />
-            </div>
-            <div>
-              <img src={Twitter} alt="" />
-            </div>
-            <div>
-              <img src={Pin} alt="" />
-            </div>
+            {/* <div> */}
+             <a href="#"><img src={Facebook} alt="" /></a> 
+            {/* </div> */}
+            {/* <div> */}
+             <a href="#"><img src={Instagram} alt="" /></a> 
+            {/* </div> */}
+            {/* <div> */}
+             <a href="#"> <img src={Twitter} alt="" /></a>
+            {/* </div> */}
+            {/* <div> */}
+              <a href="#"><img src={Pin} alt="" /></a>
+            {/* </div> */}
           </div>
         </div>
       </div>

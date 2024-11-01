@@ -15,13 +15,15 @@ const Homeabout = () => {
         </div>
         <div className="about_paragraph">
           <h1>Why Choose Us</h1>
-          <p>
+          {/* <p>
             A well-known general trading company in Dubai, Viable General
             Trading specializes in supply and procurement and has strong
             financial capabilities. We work with a broad range of products from
             numerous industries, such as the metal and constraction markets.
-          </p>
-          <a href="#">Read More</a>
+          </p> */}<p>Our established global network enables us to efficiently manage imports and exports across various countries and industries. We have strong relationships with trusted suppliers, manufacturers, and logistics
+             providers, ensuring a smooth and reliable supply chain,We understand that every business has unique needs. Our approach is tailored to meet your specific requirements, whether it's sourcing the right products, negotiating competitive prices, or optimizing shipping routes
+              to minimize costs and maximize efficincy.</p>
+          <a href="/about">Read More</a>
         </div>
         <div class="vl"></div>
         <div className="liness">

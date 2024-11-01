@@ -56,14 +56,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 21rem;
+  margin-left: 17rem;
 }
 .New-imgs {
   width: 100%;
 }
 .circlesimgs {
   width: 8rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 .card-footer {
   background-color: aqua;
@@ -75,13 +75,13 @@
   font-size: 1.5em;
 }
 .card {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   margin: 10px;
-  max-width: 300px;
+  max-width: 300px; */
 }
 
 .card:hover {
@@ -178,3 +178,8 @@
     font-size: 21px;
   }
 }
+@media (min-width: 1920px) and (max-width: 2560px) {
+   
+  .process p {
+    margin-left: 34rem;
+  }}

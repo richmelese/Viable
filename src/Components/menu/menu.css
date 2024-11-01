@@ -16,6 +16,7 @@
   margin-top: 1rem;
   z-index: 1;
   height: 66px;
+  margin-top: 6rem;
 }
 .logo a {
   display: block;
@@ -157,12 +158,24 @@
   .hamburger,
   .toggle-menu {
     display: block;
-    margin-top: -39rem;
+    margin-top: -35rem;
     margin-left: 19rem;
   }
   .header {
     padding: 10px 40px;
+    /* margin-top: -6rem; */
   }
+  .hamburger, .toggle-menu {
+    display: block;
+    margin-top: -9rem;
+    margin-left: 11rem;}
+  .logo a img {
+    width: 6rem;
+    display: block;
+    margin-left: -1rem;
+    padding-top: 1rem;
+    margin-top: -8rem;
+}
   .menu {
     justify-content: start;
     flex-direction: column;

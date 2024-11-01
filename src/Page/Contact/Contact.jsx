@@ -51,7 +51,7 @@ const Contact = () => {
             <h5>+971 52 790 8500</h5>
             <hr className="Contact-hr" />
             <h4>Mail :</h4>
-            <h5>Info@Viable.com</h5>
+            <a href="mailto:info@viablegt.com"><h5>info@viablegt.com</h5></a>
             <hr className="Contact-hr" />
           </div>
           <div style={{ backgroundColor: "#00C5DF" }} className="Third">

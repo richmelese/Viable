@@ -22,7 +22,7 @@ const footer = () => {
             </div>
             <div>
               <h2>Mail</h2>
-              <h4>Info@Viable.com</h4>
+              <a href="mailto:info@viablegt.com"> <h4>info@viablegt.com</h4></a>
             </div>
           </div>
           <div className="Icon-container">
@@ -57,45 +57,45 @@ const footer = () => {
             </p>
             <div className="Social-log">
               <div>
-                <img src={Facebook} alt="" />
+               <a href="#"><img src={Facebook} alt="" /></a> 
               </div>
               <div>
-                <img src={Instagram} alt="" />
+                <a href="#"><img src={Instagram} alt="" /></a>
               </div>
               <div>
-                <img src={Twitter} alt="" />
+               <a href="#"> <img src={Twitter} alt="" /></a>
               </div>
               <div>
-                <img src={Pin} alt="" />
+               <a href="#"> <img src={Pin} alt="" /></a>
               </div>
             </div>
           </div>
           <div className="Second-footer">
             <h6>Explore</h6>
             <ul>
-              <li>About us</li>
-              <li>Solution</li>
-              <li>Offers</li>
-              <li>Pricing</li>
-              <li>FAQ</li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/Solution">Service</a></li>
+              <li><a href="/homedetail">BusinessActivities</a></li>
+              {/* <li>FAQ</li> */}
             </ul>
             <hr className="Vertical-hr" />
           </div>
           <div>
             <h6>Quick Links</h6>
             <ul>
-              <li>Services</li>
-              <li>Blogs</li>
-              <li>Contact Us</li>
+            <li><a href="/Solution">Service</a></li>
+              {/* <li>Blogs</li> */}
+              <li><a href="/Contactus">Contactus</a></li>
             </ul>
             <hr className="Vertical-hr-two" />
           </div>{" "}
         </div>
         <hr className="Footer-hr" />
-        {/* <h2 className="Bitapps__Con">
+        <h2 className="Bitapps__Con">
           © 2023 | Designed and developed by{" "}
           <a href="https://bitappstech.com/">Bitappstech</a>
-        </h2> */}
+        </h2>
       </div>
     </div>
   );

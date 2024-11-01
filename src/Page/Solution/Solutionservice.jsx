@@ -7,6 +7,7 @@ import small from "../../Asset/Group_9008-removebg-preview.png";
 import cards5 from "../../Asset/unsplash_NvqYkDPE0Rw (4).png";
 import cards6 from "../../Asset/unsplash_NvqYkDPE0Rw (5).png";
 import cards7 from "../../Asset/unsplash_NvqYkDPE0Rw (6).png";
+import plus from"../../Asset/iconread.jpg";
 const Solutionservice = (props) => {
   return (
     <div>
@@ -16,7 +17,7 @@ const Solutionservice = (props) => {
             smallservice"
         >
           <img className="" src={small} alt="" />
-          our service
+          Our Services
         </div>
         <div>
           <h1 className="serviceheading">Our Service</h1>
@@ -50,7 +51,7 @@ const Solutionservice = (props) => {
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
@@ -72,7 +73,7 @@ const Solutionservice = (props) => {
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="plusssecond"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ const Solutionservice = (props) => {
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
@@ -105,59 +106,61 @@ const Solutionservice = (props) => {
             <hr className="Services-header" />
 
             <p className="card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              voluptate id voluptatum vel totam explicabo consequatur in natus,
-              deleniti nihil ipsam sint molestiae commodi quae eveniet eius
-              dolorum, sequi iste.
+            Handle the transportation process from origin to destination, optimizing routes, coordinating carriers, and ensuring on-time deliveries. 
+            Utilize tracking and monitoring systems for real-time visibility.
+            minimizing costs, 
+            and enhancing overall efficiency for import and export operations
+            Implement advanced logistics software and technology solutions for automation, 
+          
             </p>
             <div className="card-footerblog">
               <div className="read">
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
         <div className="card">
           <img className="New-imgs" src={cards6} alt="" />
           <div className="card-content">
-            <h2 className="card-title">Logistics Services</h2>
+            <h2 className="card-title">Freight Forwarding</h2>
             <hr className="Services-header" />
 
             <p className="card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              voluptate id voluptatum vel totam explicabo consequatur in natus,
-              deleniti nihil ipsam sint molestiae commodi quae eveniet eius
-              dolorum, sequi iste.
+            Arrange transportation of goods through various modes (air, sea, land) by coordinating with carriers, booking cargo, 
+            negotiating rates, and managing freight documentation.Provide expertise in navigating customs procedures. 
+            covering potential risks and damages that may occur during transportation
+            Optimize the supply chain by streamlining processes, reducing lead times, .
             </p>
             <div className="card-footerblog">
               <div className="read">
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
         <div className="card">
           <img className="New-imgs" src={cards7} alt="" />
           <div className="card-content">
-            <h2 className="card-title">Logistics Services</h2>
+            <h2 className="card-title">Transportation</h2>
             <hr className="Services-header" />
 
             <p className="card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              voluptate id voluptatum vel totam explicabo consequatur in natus,
-              deleniti nihil ipsam sint molestiae commodi quae eveniet eius
-              dolorum, sequi iste.
+            Handle the transportation process from origin to destination, optimizing routes, coordinating carriers, and ensuring on-time deliveries. 
+            Utilize tracking and monitoring systems for real-time visibility.Provide insurance options to protect goods during transit, 
+            tracking, and managing operations efficiently.
+            covering potential risks and damages that may occur during transportation.
             </p>
             <div className="card-footerblog">
               <div className="read">
                 {" "}
                 <a href="#">ReadMore</a>
               </div>
-              {/* <div><span className="plus-icon">+</span></div> */}
+              <div className="pluss"><img className="plusicon" src={plus} alt="" /></div>
             </div>
           </div>
         </div>
